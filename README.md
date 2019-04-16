@@ -16,9 +16,9 @@ Please read and follow our [Code of Conduct](./CODE_OF_CONDUCT.md).
 Visual Composer API is based on a popular API DOCS GENERATOR by [Slate](https://github.com/lord/slate). Documentation is written in Markdown.
 
 1. Fork this repository on GitHub.
-2. Clone *your forked repository* (not our original one) to your hard drive with `git clone https://github.com/YOURUSERNAME/slate.git`
-3. `cd slate`
-4. Initialize and start Slate. You can either do this locally, or with Vagrant:
+2. Clone *your forked repository* (not our original one) to your hard drive with `git clone https://github.com/YOURUSERNAME/api-docs.git`
+3. `cd api-docs`
+4. Initialize and start api-docs. You can either do this locally, or with Vagrant:
 
 ```shell
 # either run this to run locally
