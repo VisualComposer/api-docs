@@ -760,10 +760,10 @@
 <li><strong>package.json</strong> – npm install/update files for required node modules;</li>
 <li><strong>webpack.config</strong> – files to build a component with Webpack;</li>
 <li><strong>Directory {tag}:</strong></li>
-<li><strong>cssMixins directory</strong> – <a href="#">cssMixin.pcss</a>: POSTCSS file that holds mixin for custom generated style;</li>
+<li><strong>cssMixins directory</strong> – <a href="#element-css-mixins">cssMixin.pcss</a>: POSTCSS file that holds mixin for custom generated style;</li>
 <li><strong>public directory</strong> – may contain custom CSS, JS, and images for public view</li>
 <li><strong>index.js</strong> – the main file, build with Webpack;</li>
-<li><strong>component.js</strong> – ReactJs component contains VCWB editor component. This component is used only in the editor and contains <a href="#">element built-in methods</a> that provide additional functionality.</li>
+<li><strong>component.js</strong> – ReactJs component contains VCWB editor component. This component is used only in the editor and contains <a href="#element-component-methods">element built-in methods</a> that provide additional functionality.</li>
 <li><strong>settings.json</strong> – describes element attributes;</li>
 <li><strong>.php files</strong> – required PHP files (<em>must be described in ../manifest.json</em>);</li>
 <li><strong>editor.css</strong> – CSS files which will be used only in the editor;</li>
@@ -2027,11 +2027,11 @@ Note: The placeholder <b>[publicPath]</b> is required for the Visual Composer mo
 </thead><tbody>
 <tr>
 <td>waypoints</td>
-<td>Uses <a href="http://imakewebthings.com/waypoints/">waypoints</a> library. Included in the Design Options attribute</td>
+<td>Uses <a href="http://imakewebthings.com/waypoints/" target="_blank">waypoints</a> library. Included in the Design Options attribute</td>
 </tr>
 <tr>
 <td>animate</td>
-<td>Uses <a href="https://daneden.github.io/animate.css/">animate.css</a> library. Included in the Design Options attribute</td>
+<td>Uses <a href="https://daneden.github.io/animate.css/" target="_blank">animate.css</a> library. Included in the Design Options attribute</td>
 </tr>
 <tr>
 <td>iconpicker</td>
@@ -2039,23 +2039,23 @@ Note: The placeholder <b>[publicPath]</b> is required for the Visual Composer mo
 </tr>
 <tr>
 <td>imageFilter</td>
-<td>Uses <a href="https://una.im/CSSgram/">CSSgram</a> library.</td>
+<td>Uses <a href="https://una.im/CSSgram/" target="_blank">CSSgram</a> library.</td>
 </tr>
 <tr>
 <td>lightbox</td>
-<td>Uses <a href="https://lokeshdhakar.com/projects/lightbox2/">lightbox</a> library.</td>
+<td>Uses <a href="https://lokeshdhakar.com/projects/lightbox2/" target="_blank">lightbox</a> library.</td>
 </tr>
 <tr>
 <td>photoswipe</td>
-<td>Uses <a href="http://photoswipe.com/">photoswipe</a> library.</td>
+<td>Uses <a href="http://photoswipe.com/" target="_blank">photoswipe</a> library.</td>
 </tr>
 <tr>
 <td>slickSlider</td>
-<td>Uses <a href="http://kenwheeler.github.io/slick/">slick slider</a> library.</td>
+<td>Uses <a href="http://kenwheeler.github.io/slick/" target="_blank">slick slider</a> library.</td>
 </tr>
 <tr>
 <td>zoom</td>
-<td>Uses <a href="http://www.jacklmoore.com/zoom/">jQuery zoom</a> library.</td>
+<td>Uses <a href="http://www.jacklmoore.com/zoom/" target="_blank">jQuery zoom</a> library.</td>
 </tr>
 </tbody></table>
 <h2 id='groups'>groups</h2>
@@ -3819,7 +3819,7 @@ Properties like icons with attribute type treeView and meta attribute containerF
 <p>These methods can be called within an <code>elementComponet</code> class by using <code>this</code> keyword, e.g.: <code>this.applyDO(‘all’)</code>.</p>
 
 <aside class="notice">
-Note: Some of these methods accept a `ref` as an argument, this `ref` usually is a <a href="https://reactjs.org/docs/refs-and-the-dom.html" target="_blank">React ref</a> of an HTML tag.
+Note: Some of these methods accept a <code>ref</code> as an argument, this <code>ref</code> usually is a <a href="https://reactjs.org/docs/refs-and-the-dom.html" target="_blank">React ref</a> of an HTML tag.
 </aside>
 <h2 id='component-methods'>Component methods</h2><h3 id='spinnerhtml'><code>spinnerHTML()</code></h3>
 <p><strong>Description</strong>: Creates a loading spinner which can be used when loading content like shortcode.</p>
@@ -3981,7 +3981,7 @@ Note: Some of these methods accept a `ref` as an argument, this `ref` usually is
 <p><code>data-vcvs-html</code> – an attribute which shortcode or HTML string.</p>
 
 <aside class="notice">
-Note: `vcvhelper` element is used only in the editor. On public view, it will be stripped.
+Note: <code>vcvhelper</code> element is used only in the editor. On public view, it will be stripped.
 </aside>
 <h2 id='rendering-html'>Rendering HTML</h2>
 <blockquote>
@@ -4438,12 +4438,12 @@ Inside the <code>__construct</code> method, a <code>VCV_WP_CF7_CONTROLLER</code>
 </thead><tbody>
 <tr>
 <td>waypoints</td>
-<td>Uses waypoints library. Included in the Design Options attribute</td>
+<td>Uses <a href="http://imakewebthings.com/waypoints/" target="_blank">waypoints</a> library. Included in the Design Options attribute</td>
 <td>No</td>
 </tr>
 <tr>
 <td>animate</td>
-<td>Uses animate.css library. Included in the Design Options attribute</td>
+<td>Uses <a href="https://daneden.github.io/animate.css/" target="_blank">animate.css</a> library. Included in the Design Options attribute</td>
 <td>No</td>
 </tr>
 <tr>
@@ -4453,27 +4453,27 @@ Inside the <code>__construct</code> method, a <code>VCV_WP_CF7_CONTROLLER</code>
 </tr>
 <tr>
 <td>imageFilter</td>
-<td>Uses CSSgram library. Bundled with image type elements like Single Image.</td>
+<td>Uses <a href="https://una.im/CSSgram/" target="_blank">CSSgram</a> library. Bundled with image type elements like Single Image.</td>
 <td>Yes</td>
 </tr>
 <tr>
 <td>lightbox</td>
-<td>Uses lightbox library. Bundled with image type elements like Single Image.</td>
+<td>Uses <a href="https://lokeshdhakar.com/projects/lightbox2/" target="_blank">lightbox</a> library. Bundled with image type elements like Single Image.</td>
 <td>Yes</td>
 </tr>
 <tr>
 <td>photoswipe</td>
-<td>Uses photoswipe library. Bundled with image type elements like Single Image</td>
+<td>Uses <a href="http://photoswipe.com/" target="_blank">photoswipe</a> library. Bundled with image type elements like Single Image</td>
 <td>Yes</td>
 </tr>
 <tr>
 <td>slickSlider</td>
-<td>Uses slick slider library. Bundled with elements that have a sliding option like Simple Image Slider.</td>
+<td>Uses <a href="http://kenwheeler.github.io/slick/" target="_blank">slick slider</a> library. Bundled with elements that have a sliding option like Simple Image Slider.</td>
 <td>Yes</td>
 </tr>
 <tr>
 <td>zoom</td>
-<td>Uses jQuery zoom library. Bundled with image type elements like Single Image</td>
+<td>Uses <a href="http://www.jacklmoore.com/zoom/" target="_blank">jQuery zoom</a> library. Bundled with image type elements like Single Image</td>
 <td>Yes</td>
 </tr>
 </tbody></table>
