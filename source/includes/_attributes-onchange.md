@@ -819,4 +819,3 @@
 **Description**: Executes the method of the attribute. Specify which method to execute in the options property.
 
 **Options**: Currently available `requestToServer` method.
-
