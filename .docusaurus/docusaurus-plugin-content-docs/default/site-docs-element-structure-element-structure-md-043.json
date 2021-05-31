@@ -1,0 +1,22 @@
+{
+  "unversionedId": "element-structure/element-structure",
+  "id": "element-structure/element-structure",
+  "isDocsHomePage": false,
+  "title": "Element Structure",
+  "description": "Every element is represented with settings files and JS/PHP files. The best way to understand element structure is to clone our",
+  "source": "@site/docs/element-structure/element-structure.md",
+  "sourceDirName": "element-structure",
+  "slug": "/element-structure/element-structure",
+  "permalink": "/element-structure/element-structure",
+  "editUrl": "https://github.com/VisualComposer/docs/element-structure/element-structure.md",
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Introduction",
+        "href": "/"
+      },
+      {
+        "type": "category",
+        "label": "Element Structure",
+        "items": [
+          {
+            "type": "link",
+            "label": "Element Structure",
+            "href": "/element-structure/element-structure"
+          }
+        ],
+        "collapsed": true
+      }
+    ]
+  },
+  "permalinkToSidebar": {
+    "/element-structure/element-structure": "tutorialSidebar",
+    "/": "tutorialSidebar"
+  }
+}

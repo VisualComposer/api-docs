@@ -1,0 +1,103 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "versionLabel": "Next",
+          "versionPath": "/",
+          "versionEditUrl": "https://github.com/VisualComposer/docs",
+          "versionEditUrlLocalized": "https://github.com/VisualComposer/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/nikitahlopovs/Documents/Sites/api-docs/sidebars.js",
+          "contentPath": "/Users/nikitahlopovs/Documents/Sites/api-docs/docs",
+          "contentPathLocalized": "/Users/nikitahlopovs/Documents/Sites/api-docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "mainDocId": "intro",
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "intro"
+              },
+              {
+                "type": "category",
+                "label": "Element Structure",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "element-structure/element-structure"
+                  }
+                ],
+                "collapsed": true
+              }
+            ]
+          },
+          "permalinkToSidebar": {
+            "/element-structure/element-structure": "tutorialSidebar",
+            "/": "tutorialSidebar"
+          },
+          "docs": [
+            {
+              "unversionedId": "element-structure/element-structure",
+              "id": "element-structure/element-structure",
+              "isDocsHomePage": false,
+              "title": "Element Structure",
+              "description": "Every element is represented with settings files and JS/PHP files. The best way to understand element structure is to clone our",
+              "source": "@site/docs/element-structure/element-structure.md",
+              "sourceDirName": "element-structure",
+              "slug": "/element-structure/element-structure",
+              "permalink": "/element-structure/element-structure",
+              "editUrl": "https://github.com/VisualComposer/docs/element-structure/element-structure.md",
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introduction",
+                "permalink": "/"
+              }
+            },
+            {
+              "unversionedId": "intro",
+              "id": "intro",
+              "isDocsHomePage": false,
+              "title": "Introduction",
+              "description": "Visual Composer API allows you to develop your own custom elements for the website builder. With custom elements, you are in charge of your element design and functionality which is crucial for advanced projects and allows perfectly align element choice to your brand.",
+              "source": "@site/docs/intro.md",
+              "sourceDirName": ".",
+              "slug": "/",
+              "permalink": "/",
+              "editUrl": "https://github.com/VisualComposer/docs/intro.md",
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "slug": "/"
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Element Structure",
+                "permalink": "/element-structure/element-structure"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": null
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": []
+  },
+  "docusaurus-plugin-debug": {
+    "default": null
+  },
+  "docusaurus-theme-classic": {
+    "default": null
+  }
+}
