@@ -2,13 +2,14 @@
 module.exports = {
   title: 'Visual Composer',
   tagline: 'Visual Composer Website Builder API',
-  url: 'https://visualcomposer.github.io/api-docs',
+  url: 'https://visualcomposer.github.io/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/cropped-vcwb-favico-32x32.png',
   organizationName: 'VisualComposer', // Usually your GitHub org/user name.
   projectName: 'api-docs', // Usually your repo name.
+  trailingSlash: false,
   themeConfig: {
     navbar: {
       title: '',
