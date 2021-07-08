@@ -3,7 +3,7 @@ module.exports = {
   title: 'Visual Composer',
   tagline: 'Visual Composer Website Builder API',
   url: 'https://visualcomposer.github.io/',
-  baseUrl: '/',
+  baseUrl: '/api-docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/cropped-vcwb-favico-32x32.png',
@@ -39,7 +39,7 @@ module.exports = {
           items: [
             {
               label: 'API Documentation',
-              to: '/docs/intro',
+              to: '/',
             },
           ],
         },

@@ -1,13 +1,14 @@
 export default {
   "title": "Visual Composer",
   "tagline": "Visual Composer Website Builder API",
-  "url": "https://visualcomposer.github.io/api-docs",
-  "baseUrl": "/",
+  "url": "https://visualcomposer.github.io/",
+  "baseUrl": "/api-docs/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/cropped-vcwb-favico-32x32.png",
   "organizationName": "VisualComposer",
   "projectName": "api-docs",
+  "trailingSlash": false,
   "themeConfig": {
     "navbar": {
       "title": "",
@@ -39,7 +40,7 @@ export default {
           "items": [
             {
               "label": "API Documentation",
-              "to": "/docs/intro"
+              "to": "/"
             }
           ]
         },

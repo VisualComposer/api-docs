@@ -7,7 +7,7 @@
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/",
-  "permalink": "/",
+  "permalink": "/api-docs/",
   "editUrl": "https://github.com/VisualComposer/docs/intro.md",
   "version": "current",
   "sidebarPosition": 1,
@@ -18,6 +18,6 @@
   "sidebar": "tutorialSidebar",
   "next": {
     "title": "Element Structure",
-    "permalink": "/element-structure/element-structure"
+    "permalink": "/api-docs/element-structure/element-structure"
   }
 }

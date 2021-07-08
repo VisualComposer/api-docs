@@ -1,35 +1,35 @@
 {
-  "/__docusaurus/debug-3d6": {
+  "/api-docs/__docusaurus/debug-515": {
     "component": "component---theme-debug-config-23-a-2ff"
   },
-  "/__docusaurus/debug/config-914": {
+  "/api-docs/__docusaurus/debug/config-2b7": {
     "component": "component---theme-debug-config-23-a-2ff"
   },
-  "/__docusaurus/debug/content-c28": {
+  "/api-docs/__docusaurus/debug/content-447": {
     "component": "component---theme-debug-contentba-8-ce7",
     "allContent": "allContent---docusaurus-debug-content-246-9aa"
   },
-  "/__docusaurus/debug/globalData-3cf": {
+  "/api-docs/__docusaurus/debug/globalData-440": {
     "component": "component---theme-debug-global-dataede-0fa"
   },
-  "/__docusaurus/debug/metadata-31b": {
+  "/api-docs/__docusaurus/debug/metadata-ef8": {
     "component": "component---theme-debug-site-metadata-68-e-3d4"
   },
-  "/__docusaurus/debug/registry-0da": {
+  "/api-docs/__docusaurus/debug/registry-237": {
     "component": "component---theme-debug-registry-679-501"
   },
-  "/__docusaurus/debug/routes-244": {
+  "/api-docs/__docusaurus/debug/routes-d7e": {
     "component": "component---theme-debug-routes-946-699"
   },
-  "/-10d": {
+  "/api-docs/-9dd": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---935-fcf"
   },
-  "/-546": {
+  "/api-docs/-2af": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---0-e-3-279"
   },
-  "/element-structure/element-structure-cf8": {
+  "/api-docs/element-structure/element-structure-588": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---element-structure-element-structure-043-b48"
   }

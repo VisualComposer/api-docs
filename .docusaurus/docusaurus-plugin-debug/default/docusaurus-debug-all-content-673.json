@@ -5,9 +5,10 @@
         {
           "versionName": "current",
           "versionLabel": "Next",
-          "versionPath": "/",
+          "versionPath": "/api-docs/",
           "versionEditUrl": "https://github.com/VisualComposer/docs",
           "versionEditUrlLocalized": "https://github.com/VisualComposer/i18n/en/docusaurus-plugin-content-docs/current",
+          "versionBanner": "none",
           "isLast": true,
           "routePriority": -1,
           "sidebarFilePath": "/Users/nikitahlopovs/Documents/Sites/api-docs/sidebars.js",
@@ -34,8 +35,8 @@
             ]
           },
           "permalinkToSidebar": {
-            "/element-structure/element-structure": "tutorialSidebar",
-            "/": "tutorialSidebar"
+            "/api-docs/element-structure/element-structure": "tutorialSidebar",
+            "/api-docs/": "tutorialSidebar"
           },
           "docs": [
             {
@@ -47,7 +48,7 @@
               "source": "@site/docs/element-structure/element-structure.md",
               "sourceDirName": "element-structure",
               "slug": "/element-structure/element-structure",
-              "permalink": "/element-structure/element-structure",
+              "permalink": "/api-docs/element-structure/element-structure",
               "editUrl": "https://github.com/VisualComposer/docs/element-structure/element-structure.md",
               "version": "current",
               "sidebarPosition": 1,
@@ -57,7 +58,7 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Introduction",
-                "permalink": "/"
+                "permalink": "/api-docs/"
               }
             },
             {
@@ -69,7 +70,7 @@
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
               "slug": "/",
-              "permalink": "/",
+              "permalink": "/api-docs/",
               "editUrl": "https://github.com/VisualComposer/docs/intro.md",
               "version": "current",
               "sidebarPosition": 1,
@@ -80,7 +81,7 @@
               "sidebar": "tutorialSidebar",
               "next": {
                 "title": "Element Structure",
-                "permalink": "/element-structure/element-structure"
+                "permalink": "/api-docs/element-structure/element-structure"
               }
             }
           ]
@@ -89,7 +90,12 @@
     }
   },
   "docusaurus-plugin-content-blog": {
-    "default": null
+    "default": {
+      "blogPosts": [],
+      "blogListPaginated": [],
+      "blogTags": {},
+      "blogTagsListPath": null
+    }
   },
   "docusaurus-plugin-content-pages": {
     "default": []

@@ -2,13 +2,14 @@
   "pluginId": "default",
   "version": "current",
   "label": "Next",
+  "banner": "none",
   "isLast": true,
   "docsSidebars": {
     "tutorialSidebar": [
       {
         "type": "link",
         "label": "Introduction",
-        "href": "/"
+        "href": "/api-docs/"
       },
       {
         "type": "category",
@@ -17,7 +18,7 @@
           {
             "type": "link",
             "label": "Element Structure",
-            "href": "/element-structure/element-structure"
+            "href": "/api-docs/element-structure/element-structure"
           }
         ],
         "collapsed": true
@@ -25,7 +26,7 @@
     ]
   },
   "permalinkToSidebar": {
-    "/element-structure/element-structure": "tutorialSidebar",
-    "/": "tutorialSidebar"
+    "/api-docs/element-structure/element-structure": "tutorialSidebar",
+    "/api-docs/": "tutorialSidebar"
   }
 }

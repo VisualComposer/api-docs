@@ -3,53 +3,53 @@ import React from 'react';
 import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
 {
-  path: '/__docusaurus/debug',
-  component: ComponentCreator('/__docusaurus/debug','3d6'),
+  path: '/api-docs/__docusaurus/debug',
+  component: ComponentCreator('/api-docs/__docusaurus/debug','515'),
   exact: true,
 },
 {
-  path: '/__docusaurus/debug/config',
-  component: ComponentCreator('/__docusaurus/debug/config','914'),
+  path: '/api-docs/__docusaurus/debug/config',
+  component: ComponentCreator('/api-docs/__docusaurus/debug/config','2b7'),
   exact: true,
 },
 {
-  path: '/__docusaurus/debug/content',
-  component: ComponentCreator('/__docusaurus/debug/content','c28'),
+  path: '/api-docs/__docusaurus/debug/content',
+  component: ComponentCreator('/api-docs/__docusaurus/debug/content','447'),
   exact: true,
 },
 {
-  path: '/__docusaurus/debug/globalData',
-  component: ComponentCreator('/__docusaurus/debug/globalData','3cf'),
+  path: '/api-docs/__docusaurus/debug/globalData',
+  component: ComponentCreator('/api-docs/__docusaurus/debug/globalData','440'),
   exact: true,
 },
 {
-  path: '/__docusaurus/debug/metadata',
-  component: ComponentCreator('/__docusaurus/debug/metadata','31b'),
+  path: '/api-docs/__docusaurus/debug/metadata',
+  component: ComponentCreator('/api-docs/__docusaurus/debug/metadata','ef8'),
   exact: true,
 },
 {
-  path: '/__docusaurus/debug/registry',
-  component: ComponentCreator('/__docusaurus/debug/registry','0da'),
+  path: '/api-docs/__docusaurus/debug/registry',
+  component: ComponentCreator('/api-docs/__docusaurus/debug/registry','237'),
   exact: true,
 },
 {
-  path: '/__docusaurus/debug/routes',
-  component: ComponentCreator('/__docusaurus/debug/routes','244'),
+  path: '/api-docs/__docusaurus/debug/routes',
+  component: ComponentCreator('/api-docs/__docusaurus/debug/routes','d7e'),
   exact: true,
 },
 {
-  path: '/',
-  component: ComponentCreator('/','10d'),
+  path: '/api-docs/',
+  component: ComponentCreator('/api-docs/','9dd'),
   
   routes: [
 {
-  path: '/',
-  component: ComponentCreator('/','546'),
+  path: '/api-docs/',
+  component: ComponentCreator('/api-docs/','2af'),
   exact: true,
 },
 {
-  path: '/element-structure/element-structure',
-  component: ComponentCreator('/element-structure/element-structure','cf8'),
+  path: '/api-docs/element-structure/element-structure',
+  component: ComponentCreator('/api-docs/element-structure/element-structure','588'),
   exact: true,
 },
 ]
