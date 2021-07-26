@@ -50,6 +50,10 @@
                   {
                     "type": "doc",
                     "id": "element-attributes/element-attributes"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "element-attributes/meta-attributes"
                   }
                 ],
                 "collapsed": true
@@ -58,6 +62,7 @@
           },
           "permalinkToSidebar": {
             "/api-docs/element-attributes/element-attributes": "tutorialSidebar",
+            "/api-docs/element-attributes/meta-attributes": "tutorialSidebar",
             "/api-docs/element-hook/element-hook": "tutorialSidebar",
             "/api-docs/element-structure/element-structure": "tutorialSidebar",
             "/api-docs/": "tutorialSidebar"
@@ -80,6 +85,29 @@
               "previous": {
                 "title": "Element Hook",
                 "permalink": "/api-docs/element-hook/element-hook"
+              },
+              "next": {
+                "title": "Meta Attributes",
+                "permalink": "/api-docs/element-attributes/meta-attributes"
+              }
+            },
+            {
+              "unversionedId": "element-attributes/meta-attributes",
+              "id": "element-attributes/meta-attributes",
+              "isDocsHomePage": false,
+              "title": "Meta Attributes",
+              "description": "Protected meta attributes of the Visual Composer available for use via the API.",
+              "source": "@site/docs/element-attributes/meta-attributes.md",
+              "sourceDirName": "element-attributes",
+              "slug": "/element-attributes/meta-attributes",
+              "permalink": "/api-docs/element-attributes/meta-attributes",
+              "editUrl": "https://github.com/VisualComposer/docs/element-attributes/meta-attributes.md",
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Attributes",
+                "permalink": "/api-docs/element-attributes/element-attributes"
               }
             },
             {

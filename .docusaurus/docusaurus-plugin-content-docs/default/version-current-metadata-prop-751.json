@@ -43,6 +43,11 @@
             "type": "link",
             "label": "Attributes",
             "href": "/api-docs/element-attributes/element-attributes"
+          },
+          {
+            "type": "link",
+            "label": "Meta Attributes",
+            "href": "/api-docs/element-attributes/meta-attributes"
           }
         ],
         "collapsed": true
@@ -51,6 +56,7 @@
   },
   "permalinkToSidebar": {
     "/api-docs/element-attributes/element-attributes": "tutorialSidebar",
+    "/api-docs/element-attributes/meta-attributes": "tutorialSidebar",
     "/api-docs/element-hook/element-hook": "tutorialSidebar",
     "/api-docs/element-structure/element-structure": "tutorialSidebar",
     "/api-docs/": "tutorialSidebar"

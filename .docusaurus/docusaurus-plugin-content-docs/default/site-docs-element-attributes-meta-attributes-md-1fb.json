@@ -1,0 +1,19 @@
+{
+  "unversionedId": "element-attributes/meta-attributes",
+  "id": "element-attributes/meta-attributes",
+  "isDocsHomePage": false,
+  "title": "Meta Attributes",
+  "description": "Protected meta attributes of the Visual Composer available for use via the API.",
+  "source": "@site/docs/element-attributes/meta-attributes.md",
+  "sourceDirName": "element-attributes",
+  "slug": "/element-attributes/meta-attributes",
+  "permalink": "/api-docs/element-attributes/meta-attributes",
+  "editUrl": "https://github.com/VisualComposer/docs/element-attributes/meta-attributes.md",
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Attributes",
+    "permalink": "/api-docs/element-attributes/element-attributes"
+  }
+}

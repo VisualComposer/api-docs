@@ -15,5 +15,9 @@
   "previous": {
     "title": "Element Hook",
     "permalink": "/api-docs/element-hook/element-hook"
+  },
+  "next": {
+    "title": "Meta Attributes",
+    "permalink": "/api-docs/element-attributes/meta-attributes"
   }
 }
