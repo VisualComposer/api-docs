@@ -3,7 +3,7 @@
   "id": "element-structure/element-structure",
   "isDocsHomePage": false,
   "title": "Element Structure",
-  "description": "Every element is represented with settings files and JS/PHP files. The best way to understand element structure is to clone our",
+  "description": "Every element is represented with settings files and JS/PHP files. The best way to understand element structure is to clone our boilerplate repository on GitHub.",
   "source": "@site/docs/element-structure/element-structure.md",
   "sourceDirName": "element-structure",
   "slug": "/element-structure/element-structure",
@@ -18,5 +18,9 @@
   "previous": {
     "title": "Introduction",
     "permalink": "/api-docs/"
+  },
+  "next": {
+    "title": "Element Hook",
+    "permalink": "/api-docs/element-hook/element-hook"
   }
 }

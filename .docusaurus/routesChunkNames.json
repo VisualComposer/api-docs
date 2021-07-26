@@ -7,7 +7,7 @@
   },
   "/api-docs/__docusaurus/debug/content-447": {
     "component": "component---theme-debug-contentba-8-ce7",
-    "allContent": "allContent---docusaurus-debug-content-246-9aa"
+    "allContent": "allContent---api-docs-docusaurus-debug-content-246-10d"
   },
   "/api-docs/__docusaurus/debug/globalData-440": {
     "component": "component---theme-debug-global-dataede-0fa"
@@ -21,16 +21,24 @@
   "/api-docs/__docusaurus/debug/routes-d7e": {
     "component": "component---theme-debug-routes-946-699"
   },
-  "/api-docs/-9dd": {
+  "/api-docs/-364": {
     "component": "component---theme-doc-page-1-be-9be",
-    "versionMetadata": "versionMetadata---935-fcf"
+    "versionMetadata": "versionMetadata---api-docs-935-5ae"
   },
   "/api-docs/-2af": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---0-e-3-279"
+    "content": "content---api-docs-0-e-3-5d4"
+  },
+  "/api-docs/element-attributes/element-attributes-dbc": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---api-docs-element-attributes-element-attributes-00-f-798"
+  },
+  "/api-docs/element-hook/element-hook-473": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---api-docs-element-hook-element-hook-522-67c"
   },
   "/api-docs/element-structure/element-structure-588": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---element-structure-element-structure-043-b48"
+    "content": "content---api-docs-element-structure-element-structure-043-7ae"
   }
 }

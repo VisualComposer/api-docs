@@ -4,8 +4,7 @@ sidebar_position: 1
 
 # Element Structure
 
-Every element is represented with settings files and JS/PHP files. The best way to understand element structure is to clone our 
-<a href="https://github.com/VisualComposer/elementBoilerplate" target="_blank">boilerplate repository on GitHub</a>.
+Every element is represented with settings files and JS/PHP files. The best way to understand element structure is to clone our <a href="https://github.com/VisualComposer/elementBoilerplate" target="_blank" rel="noopener noreferrer">boilerplate repository on GitHub</a>.
 
 There are certain files required to build element:
 
@@ -180,6 +179,6 @@ When all settings and components are done need to build element with a help of W
 
 `yarn build // Build development build`
 
-`yarn watch // Watches & Build development version on file modification`
+`yarn watch // Builds & watches development version on file modification`
 
 `yarn build-production // Builds the minified build`

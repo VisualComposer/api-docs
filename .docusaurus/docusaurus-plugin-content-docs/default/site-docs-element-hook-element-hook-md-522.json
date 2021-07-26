@@ -1,0 +1,23 @@
+{
+  "unversionedId": "element-hook/element-hook",
+  "id": "element-hook/element-hook",
+  "isDocsHomePage": false,
+  "title": "Element Hook",
+  "description": "Inside plugin’s index.php file use vcv:api hook for any API call. To add an element you need to pass a path to manifest.json file and URL to the base directory of your element (see WordPress plugin example.)",
+  "source": "@site/docs/element-hook/element-hook.md",
+  "sourceDirName": "element-hook",
+  "slug": "/element-hook/element-hook",
+  "permalink": "/api-docs/element-hook/element-hook",
+  "editUrl": "https://github.com/VisualComposer/docs/element-hook/element-hook.md",
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Element Structure",
+    "permalink": "/api-docs/element-structure/element-structure"
+  },
+  "next": {
+    "title": "Attributes",
+    "permalink": "/api-docs/element-attributes/element-attributes"
+  }
+}

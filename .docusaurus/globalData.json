@@ -11,6 +11,16 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "element-attributes/element-attributes",
+              "path": "/api-docs/element-attributes/element-attributes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "element-hook/element-hook",
+              "path": "/api-docs/element-hook/element-hook",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "element-structure/element-structure",
               "path": "/api-docs/element-structure/element-structure",
               "sidebar": "tutorialSidebar"

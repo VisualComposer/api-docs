@@ -31,20 +31,86 @@
                   }
                 ],
                 "collapsed": true
+              },
+              {
+                "type": "category",
+                "label": "Element Hook",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "element-hook/element-hook"
+                  }
+                ],
+                "collapsed": true
+              },
+              {
+                "type": "category",
+                "label": "Element Attributes",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "element-attributes/element-attributes"
+                  }
+                ],
+                "collapsed": true
               }
             ]
           },
           "permalinkToSidebar": {
+            "/api-docs/element-attributes/element-attributes": "tutorialSidebar",
+            "/api-docs/element-hook/element-hook": "tutorialSidebar",
             "/api-docs/element-structure/element-structure": "tutorialSidebar",
             "/api-docs/": "tutorialSidebar"
           },
           "docs": [
             {
+              "unversionedId": "element-attributes/element-attributes",
+              "id": "element-attributes/element-attributes",
+              "isDocsHomePage": false,
+              "title": "Attributes",
+              "description": "ajaxForm",
+              "source": "@site/docs/element-attributes/element-attributes.md",
+              "sourceDirName": "element-attributes",
+              "slug": "/element-attributes/element-attributes",
+              "permalink": "/api-docs/element-attributes/element-attributes",
+              "editUrl": "https://github.com/VisualComposer/docs/element-attributes/element-attributes.md",
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Element Hook",
+                "permalink": "/api-docs/element-hook/element-hook"
+              }
+            },
+            {
+              "unversionedId": "element-hook/element-hook",
+              "id": "element-hook/element-hook",
+              "isDocsHomePage": false,
+              "title": "Element Hook",
+              "description": "Inside plugin’s index.php file use vcv:api hook for any API call. To add an element you need to pass a path to manifest.json file and URL to the base directory of your element (see WordPress plugin example.)",
+              "source": "@site/docs/element-hook/element-hook.md",
+              "sourceDirName": "element-hook",
+              "slug": "/element-hook/element-hook",
+              "permalink": "/api-docs/element-hook/element-hook",
+              "editUrl": "https://github.com/VisualComposer/docs/element-hook/element-hook.md",
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Element Structure",
+                "permalink": "/api-docs/element-structure/element-structure"
+              },
+              "next": {
+                "title": "Attributes",
+                "permalink": "/api-docs/element-attributes/element-attributes"
+              }
+            },
+            {
               "unversionedId": "element-structure/element-structure",
               "id": "element-structure/element-structure",
               "isDocsHomePage": false,
               "title": "Element Structure",
-              "description": "Every element is represented with settings files and JS/PHP files. The best way to understand element structure is to clone our",
+              "description": "Every element is represented with settings files and JS/PHP files. The best way to understand element structure is to clone our boilerplate repository on GitHub.",
               "source": "@site/docs/element-structure/element-structure.md",
               "sourceDirName": "element-structure",
               "slug": "/element-structure/element-structure",
@@ -59,6 +125,10 @@
               "previous": {
                 "title": "Introduction",
                 "permalink": "/api-docs/"
+              },
+              "next": {
+                "title": "Element Hook",
+                "permalink": "/api-docs/element-hook/element-hook"
               }
             },
             {
