@@ -11,6 +11,11 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "element-attributes/attributes-options",
+              "path": "/api-docs/element-attributes/attributes-options",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "element-attributes/element-attributes",
               "path": "/api-docs/element-attributes/element-attributes",
               "sidebar": "tutorialSidebar"

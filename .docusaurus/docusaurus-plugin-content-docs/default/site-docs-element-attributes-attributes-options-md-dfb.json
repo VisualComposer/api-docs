@@ -1,0 +1,23 @@
+{
+  "unversionedId": "element-attributes/attributes-options",
+  "id": "element-attributes/attributes-options",
+  "isDocsHomePage": false,
+  "title": "Attributes Options",
+  "description": "Each attribute has a type and options. Options property is an object that may contain multiple properties which can extend an attribute.",
+  "source": "@site/docs/element-attributes/attributes-options.md",
+  "sourceDirName": "element-attributes",
+  "slug": "/element-attributes/attributes-options",
+  "permalink": "/api-docs/element-attributes/attributes-options",
+  "editUrl": "https://github.com/VisualComposer/docs/element-attributes/attributes-options.md",
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Element Hook",
+    "permalink": "/api-docs/element-hook/element-hook"
+  },
+  "next": {
+    "title": "Attributes",
+    "permalink": "/api-docs/element-attributes/element-attributes"
+  }
+}

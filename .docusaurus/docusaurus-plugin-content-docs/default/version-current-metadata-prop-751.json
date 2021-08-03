@@ -41,6 +41,11 @@
         "items": [
           {
             "type": "link",
+            "label": "Attributes Options",
+            "href": "/api-docs/element-attributes/attributes-options"
+          },
+          {
+            "type": "link",
             "label": "Attributes",
             "href": "/api-docs/element-attributes/element-attributes"
           },
@@ -55,6 +60,7 @@
     ]
   },
   "permalinkToSidebar": {
+    "/api-docs/element-attributes/attributes-options": "tutorialSidebar",
     "/api-docs/element-attributes/element-attributes": "tutorialSidebar",
     "/api-docs/element-attributes/meta-attributes": "tutorialSidebar",
     "/api-docs/element-hook/element-hook": "tutorialSidebar",

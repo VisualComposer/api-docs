@@ -49,6 +49,10 @@
                 "items": [
                   {
                     "type": "doc",
+                    "id": "element-attributes/attributes-options"
+                  },
+                  {
+                    "type": "doc",
                     "id": "element-attributes/element-attributes"
                   },
                   {
@@ -61,6 +65,7 @@
             ]
           },
           "permalinkToSidebar": {
+            "/api-docs/element-attributes/attributes-options": "tutorialSidebar",
             "/api-docs/element-attributes/element-attributes": "tutorialSidebar",
             "/api-docs/element-attributes/meta-attributes": "tutorialSidebar",
             "/api-docs/element-hook/element-hook": "tutorialSidebar",
@@ -68,6 +73,29 @@
             "/api-docs/": "tutorialSidebar"
           },
           "docs": [
+            {
+              "unversionedId": "element-attributes/attributes-options",
+              "id": "element-attributes/attributes-options",
+              "isDocsHomePage": false,
+              "title": "Attributes Options",
+              "description": "Each attribute has a type and options. Options property is an object that may contain multiple properties which can extend an attribute.",
+              "source": "@site/docs/element-attributes/attributes-options.md",
+              "sourceDirName": "element-attributes",
+              "slug": "/element-attributes/attributes-options",
+              "permalink": "/api-docs/element-attributes/attributes-options",
+              "editUrl": "https://github.com/VisualComposer/docs/element-attributes/attributes-options.md",
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Element Hook",
+                "permalink": "/api-docs/element-hook/element-hook"
+              },
+              "next": {
+                "title": "Attributes",
+                "permalink": "/api-docs/element-attributes/element-attributes"
+              }
+            },
             {
               "unversionedId": "element-attributes/element-attributes",
               "id": "element-attributes/element-attributes",
@@ -83,8 +111,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Element Hook",
-                "permalink": "/api-docs/element-hook/element-hook"
+                "title": "Attributes Options",
+                "permalink": "/api-docs/element-attributes/attributes-options"
               },
               "next": {
                 "title": "Meta Attributes",
@@ -129,8 +157,8 @@
                 "permalink": "/api-docs/element-structure/element-structure"
               },
               "next": {
-                "title": "Attributes",
-                "permalink": "/api-docs/element-attributes/element-attributes"
+                "title": "Attributes Options",
+                "permalink": "/api-docs/element-attributes/attributes-options"
               }
             },
             {
