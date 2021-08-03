@@ -76,6 +76,17 @@
                   }
                 ],
                 "collapsed": true
+              },
+              {
+                "type": "category",
+                "label": "Inner Elements",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "inner-elements/inner-elements"
+                  }
+                ],
+                "collapsed": true
               }
             ]
           },
@@ -87,6 +98,7 @@
             "/api-docs/element-attributes/meta-attributes": "tutorialSidebar",
             "/api-docs/element-hook/element-hook": "tutorialSidebar",
             "/api-docs/element-structure/element-structure": "tutorialSidebar",
+            "/api-docs/inner-elements/inner-elements": "tutorialSidebar",
             "/api-docs/": "tutorialSidebar"
           },
           "docs": [
@@ -107,6 +119,10 @@
               "previous": {
                 "title": "Meta Attributes",
                 "permalink": "/api-docs/element-attributes/meta-attributes"
+              },
+              "next": {
+                "title": "Inner Elements",
+                "permalink": "/api-docs/inner-elements/inner-elements"
               }
             },
             {
@@ -248,6 +264,25 @@
               "next": {
                 "title": "Element Hook",
                 "permalink": "/api-docs/element-hook/element-hook"
+              }
+            },
+            {
+              "unversionedId": "inner-elements/inner-elements",
+              "id": "inner-elements/inner-elements",
+              "isDocsHomePage": false,
+              "title": "Inner Elements",
+              "description": "For advanced custom elements, Visual Composer allows you to integrate elements within other elements. Such an approach allows you to create a more flexible element with better structure and keep components less dependent.",
+              "source": "@site/docs/inner-elements/inner-elements.md",
+              "sourceDirName": "inner-elements",
+              "slug": "/inner-elements/inner-elements",
+              "permalink": "/api-docs/inner-elements/inner-elements",
+              "editUrl": "https://github.com/VisualComposer/docs/inner-elements/inner-elements.md",
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Element CSS Mixins",
+                "permalink": "/api-docs/css-mixins/element-css-mixins"
               }
             },
             {

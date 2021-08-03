@@ -21,7 +21,7 @@
   "/api-docs/__docusaurus/debug/routes-d7e": {
     "component": "component---theme-debug-routes-946-699"
   },
-  "/api-docs/-53f": {
+  "/api-docs/-f93": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---api-docs-935-5ae"
   },
@@ -56,5 +56,9 @@
   "/api-docs/element-structure/element-structure-588": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---api-docs-element-structure-element-structure-043-7ae"
+  },
+  "/api-docs/inner-elements/inner-elements-b0e": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---api-docs-inner-elements-inner-elementsa-1-e-f83"
   }
 }

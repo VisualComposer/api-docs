@@ -15,5 +15,9 @@
   "previous": {
     "title": "Meta Attributes",
     "permalink": "/api-docs/element-attributes/meta-attributes"
+  },
+  "next": {
+    "title": "Inner Elements",
+    "permalink": "/api-docs/inner-elements/inner-elements"
   }
 }

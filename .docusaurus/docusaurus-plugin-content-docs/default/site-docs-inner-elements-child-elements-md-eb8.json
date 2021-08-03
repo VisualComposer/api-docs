@@ -1,0 +1,19 @@
+{
+  "unversionedId": "inner-elements/child-elements",
+  "id": "inner-elements/child-elements",
+  "isDocsHomePage": false,
+  "title": "Inner Elements",
+  "description": "For advanced custom elements, Visual Composer allows you to integrate elements within other elements. Such an approach allows you to create a more flexible element with better structure and keep components less dependent.",
+  "source": "@site/docs/inner-elements/child-elements.md",
+  "sourceDirName": "inner-elements",
+  "slug": "/inner-elements/child-elements",
+  "permalink": "/api-docs/inner-elements/child-elements",
+  "editUrl": "https://github.com/VisualComposer/docs/inner-elements/child-elements.md",
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Element CSS Mixins",
+    "permalink": "/api-docs/css-mixins/element-css-mixins"
+  }
+}

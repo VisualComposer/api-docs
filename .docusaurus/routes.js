@@ -39,7 +39,7 @@ export default [
 },
 {
   path: '/api-docs/',
-  component: ComponentCreator('/api-docs/','53f'),
+  component: ComponentCreator('/api-docs/','f93'),
   
   routes: [
 {
@@ -80,6 +80,11 @@ export default [
 {
   path: '/api-docs/element-structure/element-structure',
   component: ComponentCreator('/api-docs/element-structure/element-structure','588'),
+  exact: true,
+},
+{
+  path: '/api-docs/inner-elements/inner-elements',
+  component: ComponentCreator('/api-docs/inner-elements/inner-elements','b0e'),
   exact: true,
 },
 ]

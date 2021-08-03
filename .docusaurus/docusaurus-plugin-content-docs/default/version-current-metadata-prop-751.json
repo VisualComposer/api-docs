@@ -73,6 +73,18 @@
           }
         ],
         "collapsed": true
+      },
+      {
+        "type": "category",
+        "label": "Inner Elements",
+        "items": [
+          {
+            "type": "link",
+            "label": "Inner Elements",
+            "href": "/api-docs/inner-elements/inner-elements"
+          }
+        ],
+        "collapsed": true
       }
     ]
   },
@@ -84,6 +96,7 @@
     "/api-docs/element-attributes/meta-attributes": "tutorialSidebar",
     "/api-docs/element-hook/element-hook": "tutorialSidebar",
     "/api-docs/element-structure/element-structure": "tutorialSidebar",
+    "/api-docs/inner-elements/inner-elements": "tutorialSidebar",
     "/api-docs/": "tutorialSidebar"
   }
 }
