@@ -15,5 +15,9 @@
   "previous": {
     "title": "Element Component Methods",
     "permalink": "/api-docs/element-component/element-component-methods"
+  },
+  "next": {
+    "title": "Assets management",
+    "permalink": "/api-docs/assets/assets-management"
   }
 }

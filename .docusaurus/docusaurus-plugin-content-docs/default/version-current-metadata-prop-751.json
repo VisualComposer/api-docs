@@ -102,10 +102,23 @@
           }
         ],
         "collapsed": true
+      },
+      {
+        "type": "category",
+        "label": "Assets",
+        "items": [
+          {
+            "type": "link",
+            "label": "Assets management",
+            "href": "/api-docs/assets/assets-management"
+          }
+        ],
+        "collapsed": true
       }
     ]
   },
   "permalinkToSidebar": {
+    "/api-docs/assets/assets-management": "tutorialSidebar",
     "/api-docs/css-mixins/element-css-mixins": "tutorialSidebar",
     "/api-docs/element-attributes/attributes-onchange": "tutorialSidebar",
     "/api-docs/element-attributes/attributes-options": "tutorialSidebar",

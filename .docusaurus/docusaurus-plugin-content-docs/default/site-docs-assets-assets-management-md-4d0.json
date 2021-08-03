@@ -1,0 +1,19 @@
+{
+  "unversionedId": "assets/assets-management",
+  "id": "assets/assets-management",
+  "isDocsHomePage": false,
+  "title": "Assets management",
+  "description": "Visual Composer elements have an ability to include JavaScript and CSS libraries out of the box. These libraries are called shared assets.",
+  "source": "@site/docs/assets/assets-management.md",
+  "sourceDirName": "assets",
+  "slug": "/assets/assets-management",
+  "permalink": "/api-docs/assets/assets-management",
+  "editUrl": "https://github.com/VisualComposer/docs/assets/assets-management.md",
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Render Custom Content",
+    "permalink": "/api-docs/element-component/render-custom-content"
+  }
+}

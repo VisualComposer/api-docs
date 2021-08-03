@@ -11,6 +11,11 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "assets/assets-management",
+              "path": "/api-docs/assets/assets-management",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "css-mixins/element-css-mixins",
               "path": "/api-docs/css-mixins/element-css-mixins",
               "sidebar": "tutorialSidebar"
