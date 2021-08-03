@@ -26,6 +26,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "element-attributes/element-css-mixins",
+              "path": "/api-docs/element-attributes/element-css-mixins",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "element-attributes/meta-attributes",
               "path": "/api-docs/element-attributes/meta-attributes",
               "sidebar": "tutorialSidebar"

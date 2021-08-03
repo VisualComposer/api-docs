@@ -39,7 +39,7 @@ export default [
 },
 {
   path: '/api-docs/',
-  component: ComponentCreator('/api-docs/','6d2'),
+  component: ComponentCreator('/api-docs/','97e'),
   
   routes: [
 {
@@ -60,6 +60,11 @@ export default [
 {
   path: '/api-docs/element-attributes/element-attributes',
   component: ComponentCreator('/api-docs/element-attributes/element-attributes','dbc'),
+  exact: true,
+},
+{
+  path: '/api-docs/element-attributes/element-css-mixins',
+  component: ComponentCreator('/api-docs/element-attributes/element-css-mixins','6f3'),
   exact: true,
 },
 {
