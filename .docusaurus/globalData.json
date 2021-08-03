@@ -36,6 +36,16 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "element-component/element-component-methods",
+              "path": "/api-docs/element-component/element-component-methods",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "element-component/render-custom-content",
+              "path": "/api-docs/element-component/render-custom-content",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "element-hook/element-hook",
               "path": "/api-docs/element-hook/element-hook",
               "sidebar": "tutorialSidebar"

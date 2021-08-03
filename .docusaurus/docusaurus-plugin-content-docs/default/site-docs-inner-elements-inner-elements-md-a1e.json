@@ -15,5 +15,9 @@
   "previous": {
     "title": "Element CSS Mixins",
     "permalink": "/api-docs/css-mixins/element-css-mixins"
+  },
+  "next": {
+    "title": "Element Component Methods",
+    "permalink": "/api-docs/element-component/element-component-methods"
   }
 }

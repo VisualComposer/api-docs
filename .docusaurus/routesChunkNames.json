@@ -21,7 +21,7 @@
   "/api-docs/__docusaurus/debug/routes-d7e": {
     "component": "component---theme-debug-routes-946-699"
   },
-  "/api-docs/-f93": {
+  "/api-docs/-439": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---api-docs-935-5ae"
   },
@@ -48,6 +48,14 @@
   "/api-docs/element-attributes/meta-attributes-163": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---api-docs-element-attributes-meta-attributes-1-fb-501"
+  },
+  "/api-docs/element-component/element-component-methods-14c": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---api-docs-element-component-element-component-methods-0-d-5-ca7"
+  },
+  "/api-docs/element-component/render-custom-content-e60": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---api-docs-element-component-render-custom-contentd-19-362"
   },
   "/api-docs/element-hook/element-hook-473": {
     "component": "component---theme-doc-item-178-a40",

@@ -39,7 +39,7 @@ export default [
 },
 {
   path: '/api-docs/',
-  component: ComponentCreator('/api-docs/','f93'),
+  component: ComponentCreator('/api-docs/','439'),
   
   routes: [
 {
@@ -70,6 +70,16 @@ export default [
 {
   path: '/api-docs/element-attributes/meta-attributes',
   component: ComponentCreator('/api-docs/element-attributes/meta-attributes','163'),
+  exact: true,
+},
+{
+  path: '/api-docs/element-component/element-component-methods',
+  component: ComponentCreator('/api-docs/element-component/element-component-methods','14c'),
+  exact: true,
+},
+{
+  path: '/api-docs/element-component/render-custom-content',
+  component: ComponentCreator('/api-docs/element-component/render-custom-content','e60'),
   exact: true,
 },
 {

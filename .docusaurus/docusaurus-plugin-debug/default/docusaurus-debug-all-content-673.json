@@ -87,6 +87,21 @@
                   }
                 ],
                 "collapsed": true
+              },
+              {
+                "type": "category",
+                "label": "Element Component",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "element-component/element-component-methods"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "element-component/render-custom-content"
+                  }
+                ],
+                "collapsed": true
               }
             ]
           },
@@ -96,6 +111,8 @@
             "/api-docs/element-attributes/attributes-options": "tutorialSidebar",
             "/api-docs/element-attributes/element-attributes": "tutorialSidebar",
             "/api-docs/element-attributes/meta-attributes": "tutorialSidebar",
+            "/api-docs/element-component/element-component-methods": "tutorialSidebar",
+            "/api-docs/element-component/render-custom-content": "tutorialSidebar",
             "/api-docs/element-hook/element-hook": "tutorialSidebar",
             "/api-docs/element-structure/element-structure": "tutorialSidebar",
             "/api-docs/inner-elements/inner-elements": "tutorialSidebar",
@@ -218,6 +235,48 @@
               }
             },
             {
+              "unversionedId": "element-component/element-component-methods",
+              "id": "element-component/element-component-methods",
+              "isDocsHomePage": false,
+              "title": "Element Component Methods",
+              "description": "Each custom element extends a Visual Composer elementComponent class which itself is a React component. There is default React lifecycle methods that can be used to render and update the elementComponent.",
+              "source": "@site/docs/element-component/element-component-methods.md",
+              "sourceDirName": "element-component",
+              "slug": "/element-component/element-component-methods",
+              "permalink": "/api-docs/element-component/element-component-methods",
+              "editUrl": "https://github.com/VisualComposer/docs/element-component/element-component-methods.md",
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Inner Elements",
+                "permalink": "/api-docs/inner-elements/inner-elements"
+              },
+              "next": {
+                "title": "Render Custom Content",
+                "permalink": "/api-docs/element-component/render-custom-content"
+              }
+            },
+            {
+              "unversionedId": "element-component/render-custom-content",
+              "id": "element-component/render-custom-content",
+              "isDocsHomePage": false,
+              "title": "Render Custom Content",
+              "description": "Overview",
+              "source": "@site/docs/element-component/render-custom-content.md",
+              "sourceDirName": "element-component",
+              "slug": "/element-component/render-custom-content",
+              "permalink": "/api-docs/element-component/render-custom-content",
+              "editUrl": "https://github.com/VisualComposer/docs/element-component/render-custom-content.md",
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Element Component Methods",
+                "permalink": "/api-docs/element-component/element-component-methods"
+              }
+            },
+            {
               "unversionedId": "element-hook/element-hook",
               "id": "element-hook/element-hook",
               "isDocsHomePage": false,
@@ -283,6 +342,10 @@
               "previous": {
                 "title": "Element CSS Mixins",
                 "permalink": "/api-docs/css-mixins/element-css-mixins"
+              },
+              "next": {
+                "title": "Element Component Methods",
+                "permalink": "/api-docs/element-component/element-component-methods"
               }
             },
             {

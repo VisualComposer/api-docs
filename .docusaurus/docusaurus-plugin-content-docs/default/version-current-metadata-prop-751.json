@@ -85,6 +85,23 @@
           }
         ],
         "collapsed": true
+      },
+      {
+        "type": "category",
+        "label": "Element Component",
+        "items": [
+          {
+            "type": "link",
+            "label": "Element Component Methods",
+            "href": "/api-docs/element-component/element-component-methods"
+          },
+          {
+            "type": "link",
+            "label": "Render Custom Content",
+            "href": "/api-docs/element-component/render-custom-content"
+          }
+        ],
+        "collapsed": true
       }
     ]
   },
@@ -94,6 +111,8 @@
     "/api-docs/element-attributes/attributes-options": "tutorialSidebar",
     "/api-docs/element-attributes/element-attributes": "tutorialSidebar",
     "/api-docs/element-attributes/meta-attributes": "tutorialSidebar",
+    "/api-docs/element-component/element-component-methods": "tutorialSidebar",
+    "/api-docs/element-component/render-custom-content": "tutorialSidebar",
     "/api-docs/element-hook/element-hook": "tutorialSidebar",
     "/api-docs/element-structure/element-structure": "tutorialSidebar",
     "/api-docs/inner-elements/inner-elements": "tutorialSidebar",
