@@ -11,6 +11,11 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "element-attributes/attributes-onchange",
+              "path": "/api-docs/element-attributes/attributes-onchange",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "element-attributes/attributes-options",
               "path": "/api-docs/element-attributes/attributes-options",
               "sidebar": "tutorialSidebar"

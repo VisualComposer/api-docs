@@ -1,0 +1,23 @@
+{
+  "unversionedId": "element-attributes/attributes-onchange",
+  "id": "element-attributes/attributes-onchange",
+  "isDocsHomePage": false,
+  "title": "Attributes onChange",
+  "description": "onChange option",
+  "source": "@site/docs/element-attributes/attributes-onchange.md",
+  "sourceDirName": "element-attributes",
+  "slug": "/element-attributes/attributes-onchange",
+  "permalink": "/api-docs/element-attributes/attributes-onchange",
+  "editUrl": "https://github.com/VisualComposer/docs/element-attributes/attributes-onchange.md",
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Element Hook",
+    "permalink": "/api-docs/element-hook/element-hook"
+  },
+  "next": {
+    "title": "Attributes Options",
+    "permalink": "/api-docs/element-attributes/attributes-options"
+  }
+}

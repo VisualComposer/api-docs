@@ -49,6 +49,10 @@
                 "items": [
                   {
                     "type": "doc",
+                    "id": "element-attributes/attributes-onchange"
+                  },
+                  {
+                    "type": "doc",
                     "id": "element-attributes/attributes-options"
                   },
                   {
@@ -65,6 +69,7 @@
             ]
           },
           "permalinkToSidebar": {
+            "/api-docs/element-attributes/attributes-onchange": "tutorialSidebar",
             "/api-docs/element-attributes/attributes-options": "tutorialSidebar",
             "/api-docs/element-attributes/element-attributes": "tutorialSidebar",
             "/api-docs/element-attributes/meta-attributes": "tutorialSidebar",
@@ -73,6 +78,29 @@
             "/api-docs/": "tutorialSidebar"
           },
           "docs": [
+            {
+              "unversionedId": "element-attributes/attributes-onchange",
+              "id": "element-attributes/attributes-onchange",
+              "isDocsHomePage": false,
+              "title": "Attributes onChange",
+              "description": "onChange option",
+              "source": "@site/docs/element-attributes/attributes-onchange.md",
+              "sourceDirName": "element-attributes",
+              "slug": "/element-attributes/attributes-onchange",
+              "permalink": "/api-docs/element-attributes/attributes-onchange",
+              "editUrl": "https://github.com/VisualComposer/docs/element-attributes/attributes-onchange.md",
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Element Hook",
+                "permalink": "/api-docs/element-hook/element-hook"
+              },
+              "next": {
+                "title": "Attributes Options",
+                "permalink": "/api-docs/element-attributes/attributes-options"
+              }
+            },
             {
               "unversionedId": "element-attributes/attributes-options",
               "id": "element-attributes/attributes-options",
@@ -88,8 +116,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Element Hook",
-                "permalink": "/api-docs/element-hook/element-hook"
+                "title": "Attributes onChange",
+                "permalink": "/api-docs/element-attributes/attributes-onchange"
               },
               "next": {
                 "title": "Attributes",
@@ -157,8 +185,8 @@
                 "permalink": "/api-docs/element-structure/element-structure"
               },
               "next": {
-                "title": "Attributes Options",
-                "permalink": "/api-docs/element-attributes/attributes-options"
+                "title": "Attributes onChange",
+                "permalink": "/api-docs/element-attributes/attributes-onchange"
               }
             },
             {

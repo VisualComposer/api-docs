@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Element Hook",
-    "permalink": "/api-docs/element-hook/element-hook"
+    "title": "Attributes onChange",
+    "permalink": "/api-docs/element-attributes/attributes-onchange"
   },
   "next": {
     "title": "Attributes",

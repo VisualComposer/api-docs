@@ -39,12 +39,17 @@ export default [
 },
 {
   path: '/api-docs/',
-  component: ComponentCreator('/api-docs/','6b5'),
+  component: ComponentCreator('/api-docs/','6d2'),
   
   routes: [
 {
   path: '/api-docs/',
   component: ComponentCreator('/api-docs/','2af'),
+  exact: true,
+},
+{
+  path: '/api-docs/element-attributes/attributes-onchange',
+  component: ComponentCreator('/api-docs/element-attributes/attributes-onchange','ea9'),
   exact: true,
 },
 {
