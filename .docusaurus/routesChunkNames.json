@@ -21,7 +21,7 @@
   "/api-docs/__docusaurus/debug/routes-d7e": {
     "component": "component---theme-debug-routes-946-699"
   },
-  "/api-docs/-8e0": {
+  "/api-docs/-46c": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---api-docs-935-5ae"
   },
@@ -36,6 +36,10 @@
   "/api-docs/css-mixins/element-css-mixins-849": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---api-docs-css-mixins-element-css-mixinsaa-9-2ce"
+  },
+  "/api-docs/dynamic-content/dynamic-content-0d1": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---api-docs-dynamic-content-dynamic-contentb-2-c-801"
   },
   "/api-docs/element-attributes/attributes-onchange-ea9": {
     "component": "component---theme-doc-item-178-a40",

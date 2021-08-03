@@ -114,12 +114,25 @@
           }
         ],
         "collapsed": true
+      },
+      {
+        "type": "category",
+        "label": "Dynamic Content",
+        "items": [
+          {
+            "type": "link",
+            "label": "Dynamic Content",
+            "href": "/api-docs/dynamic-content/dynamic-content"
+          }
+        ],
+        "collapsed": true
       }
     ]
   },
   "permalinkToSidebar": {
     "/api-docs/assets/assets-management": "tutorialSidebar",
     "/api-docs/css-mixins/element-css-mixins": "tutorialSidebar",
+    "/api-docs/dynamic-content/dynamic-content": "tutorialSidebar",
     "/api-docs/element-attributes/attributes-onchange": "tutorialSidebar",
     "/api-docs/element-attributes/attributes-options": "tutorialSidebar",
     "/api-docs/element-attributes/element-attributes": "tutorialSidebar",

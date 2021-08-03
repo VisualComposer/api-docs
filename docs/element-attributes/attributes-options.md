@@ -805,3 +805,46 @@ Used in the `calendar` attribute. Has a number value type and is used to define 
   }
 }
 ```
+
+
+### dynamicField
+
+Used in the `string`, `htmleditor`, and `attachimage` attributes. Can have a boolean or object value type.
+
+The boolean value type will add an option to change Edit Form field to dynamic content. And by default, it will render any type of content whether it's string or HTML.
+
+`dynamicField` option *settings.json* example:
+
+```json
+{
+  "title": {
+    "type": "string",
+    "access": "public",
+    "value": "Hello World!",
+    "options": {
+      "label": "Title",
+      "dynamicField": true
+    }
+  }
+}
+```
+
+### tooltip
+
+This option will work only for a grouped attribute. It will be displayed as a question icon in the section's header right side.
+
+`tooltip` option *settings.json* example:
+
+```json
+{
+  "boxShadow": {
+    "type": "boxShadow",
+    "access": "public",
+    "value": {},
+    "options": {
+      "label": "Box Shadow",
+      "tooltip": "Add outlined shades to an element."
+    }
+  }
+}
+```

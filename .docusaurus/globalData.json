@@ -21,6 +21,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "dynamic-content/dynamic-content",
+              "path": "/api-docs/dynamic-content/dynamic-content",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "element-attributes/attributes-onchange",
               "path": "/api-docs/element-attributes/attributes-onchange",
               "sidebar": "tutorialSidebar"

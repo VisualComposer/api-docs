@@ -1,0 +1,19 @@
+{
+  "unversionedId": "dynamic-content/dynamic-content",
+  "id": "dynamic-content/dynamic-content",
+  "isDocsHomePage": false,
+  "title": "Dynamic Content",
+  "description": "The dynamicField option allows to select a value from a set of custom WordPress fields, such as post title, post author, featured image, or custom meta fields.",
+  "source": "@site/docs/dynamic-content/dynamic-content.md",
+  "sourceDirName": "dynamic-content",
+  "slug": "/dynamic-content/dynamic-content",
+  "permalink": "/api-docs/dynamic-content/dynamic-content",
+  "editUrl": "https://github.com/VisualComposer/docs/dynamic-content/dynamic-content.md",
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Assets management",
+    "permalink": "/api-docs/assets/assets-management"
+  }
+}

@@ -113,12 +113,24 @@
                   }
                 ],
                 "collapsed": true
+              },
+              {
+                "type": "category",
+                "label": "Dynamic Content",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "dynamic-content/dynamic-content"
+                  }
+                ],
+                "collapsed": true
               }
             ]
           },
           "permalinkToSidebar": {
             "/api-docs/assets/assets-management": "tutorialSidebar",
             "/api-docs/css-mixins/element-css-mixins": "tutorialSidebar",
+            "/api-docs/dynamic-content/dynamic-content": "tutorialSidebar",
             "/api-docs/element-attributes/attributes-onchange": "tutorialSidebar",
             "/api-docs/element-attributes/attributes-options": "tutorialSidebar",
             "/api-docs/element-attributes/element-attributes": "tutorialSidebar",
@@ -148,6 +160,10 @@
               "previous": {
                 "title": "Render Custom Content",
                 "permalink": "/api-docs/element-component/render-custom-content"
+              },
+              "next": {
+                "title": "Dynamic Content",
+                "permalink": "/api-docs/dynamic-content/dynamic-content"
               }
             },
             {
@@ -171,6 +187,25 @@
               "next": {
                 "title": "Inner Elements",
                 "permalink": "/api-docs/inner-elements/inner-elements"
+              }
+            },
+            {
+              "unversionedId": "dynamic-content/dynamic-content",
+              "id": "dynamic-content/dynamic-content",
+              "isDocsHomePage": false,
+              "title": "Dynamic Content",
+              "description": "The dynamicField option allows to select a value from a set of custom WordPress fields, such as post title, post author, featured image, or custom meta fields.",
+              "source": "@site/docs/dynamic-content/dynamic-content.md",
+              "sourceDirName": "dynamic-content",
+              "slug": "/dynamic-content/dynamic-content",
+              "permalink": "/api-docs/dynamic-content/dynamic-content",
+              "editUrl": "https://github.com/VisualComposer/docs/dynamic-content/dynamic-content.md",
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Assets management",
+                "permalink": "/api-docs/assets/assets-management"
               }
             },
             {

@@ -39,7 +39,7 @@ export default [
 },
 {
   path: '/api-docs/',
-  component: ComponentCreator('/api-docs/','8e0'),
+  component: ComponentCreator('/api-docs/','46c'),
   
   routes: [
 {
@@ -55,6 +55,11 @@ export default [
 {
   path: '/api-docs/css-mixins/element-css-mixins',
   component: ComponentCreator('/api-docs/css-mixins/element-css-mixins','849'),
+  exact: true,
+},
+{
+  path: '/api-docs/dynamic-content/dynamic-content',
+  component: ComponentCreator('/api-docs/dynamic-content/dynamic-content','0d1'),
   exact: true,
 },
 {

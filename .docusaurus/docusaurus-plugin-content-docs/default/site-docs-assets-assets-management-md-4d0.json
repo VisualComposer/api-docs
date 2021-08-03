@@ -15,5 +15,9 @@
   "previous": {
     "title": "Render Custom Content",
     "permalink": "/api-docs/element-component/render-custom-content"
+  },
+  "next": {
+    "title": "Dynamic Content",
+    "permalink": "/api-docs/dynamic-content/dynamic-content"
   }
 }
