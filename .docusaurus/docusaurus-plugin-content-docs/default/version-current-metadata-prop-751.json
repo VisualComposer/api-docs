@@ -56,13 +56,20 @@
           },
           {
             "type": "link",
-            "label": "Element CSS Mixins",
-            "href": "/api-docs/element-attributes/element-css-mixins"
-          },
-          {
-            "type": "link",
             "label": "Meta Attributes",
             "href": "/api-docs/element-attributes/meta-attributes"
+          }
+        ],
+        "collapsed": true
+      },
+      {
+        "type": "category",
+        "label": "CSS Mixins",
+        "items": [
+          {
+            "type": "link",
+            "label": "Element CSS Mixins",
+            "href": "/api-docs/css-mixins/element-css-mixins"
           }
         ],
         "collapsed": true
@@ -70,10 +77,10 @@
     ]
   },
   "permalinkToSidebar": {
+    "/api-docs/css-mixins/element-css-mixins": "tutorialSidebar",
     "/api-docs/element-attributes/attributes-onchange": "tutorialSidebar",
     "/api-docs/element-attributes/attributes-options": "tutorialSidebar",
     "/api-docs/element-attributes/element-attributes": "tutorialSidebar",
-    "/api-docs/element-attributes/element-css-mixins": "tutorialSidebar",
     "/api-docs/element-attributes/meta-attributes": "tutorialSidebar",
     "/api-docs/element-hook/element-hook": "tutorialSidebar",
     "/api-docs/element-structure/element-structure": "tutorialSidebar",

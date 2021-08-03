@@ -1,0 +1,23 @@
+{
+  "unversionedId": "element-structure/element-css-mixins",
+  "id": "element-structure/element-css-mixins",
+  "isDocsHomePage": false,
+  "title": "Element CSS Mixins",
+  "description": "CSS Mixins",
+  "source": "@site/docs/element-structure/element-css-mixins.md",
+  "sourceDirName": "element-structure",
+  "slug": "/element-structure/element-css-mixins",
+  "permalink": "/api-docs/element-structure/element-css-mixins",
+  "editUrl": "https://github.com/VisualComposer/docs/element-structure/element-css-mixins.md",
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Element Structure",
+    "permalink": "/api-docs/element-structure/element-structure"
+  },
+  "next": {
+    "title": "Element Hook",
+    "permalink": "/api-docs/element-hook/element-hook"
+  }
+}

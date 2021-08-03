@@ -11,6 +11,11 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "css-mixins/element-css-mixins",
+              "path": "/api-docs/css-mixins/element-css-mixins",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "element-attributes/attributes-onchange",
               "path": "/api-docs/element-attributes/attributes-onchange",
               "sidebar": "tutorialSidebar"
@@ -23,11 +28,6 @@
             {
               "id": "element-attributes/element-attributes",
               "path": "/api-docs/element-attributes/element-attributes",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "element-attributes/element-css-mixins",
-              "path": "/api-docs/element-attributes/element-css-mixins",
               "sidebar": "tutorialSidebar"
             },
             {

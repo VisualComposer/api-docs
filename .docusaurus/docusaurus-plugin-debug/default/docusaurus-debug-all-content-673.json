@@ -61,11 +61,18 @@
                   },
                   {
                     "type": "doc",
-                    "id": "element-attributes/element-css-mixins"
-                  },
+                    "id": "element-attributes/meta-attributes"
+                  }
+                ],
+                "collapsed": true
+              },
+              {
+                "type": "category",
+                "label": "CSS Mixins",
+                "items": [
                   {
                     "type": "doc",
-                    "id": "element-attributes/meta-attributes"
+                    "id": "css-mixins/element-css-mixins"
                   }
                 ],
                 "collapsed": true
@@ -73,16 +80,35 @@
             ]
           },
           "permalinkToSidebar": {
+            "/api-docs/css-mixins/element-css-mixins": "tutorialSidebar",
             "/api-docs/element-attributes/attributes-onchange": "tutorialSidebar",
             "/api-docs/element-attributes/attributes-options": "tutorialSidebar",
             "/api-docs/element-attributes/element-attributes": "tutorialSidebar",
-            "/api-docs/element-attributes/element-css-mixins": "tutorialSidebar",
             "/api-docs/element-attributes/meta-attributes": "tutorialSidebar",
             "/api-docs/element-hook/element-hook": "tutorialSidebar",
             "/api-docs/element-structure/element-structure": "tutorialSidebar",
             "/api-docs/": "tutorialSidebar"
           },
           "docs": [
+            {
+              "unversionedId": "css-mixins/element-css-mixins",
+              "id": "css-mixins/element-css-mixins",
+              "isDocsHomePage": false,
+              "title": "Element CSS Mixins",
+              "description": "CSS Mixins",
+              "source": "@site/docs/css-mixins/element-css-mixins.md",
+              "sourceDirName": "css-mixins",
+              "slug": "/css-mixins/element-css-mixins",
+              "permalink": "/api-docs/css-mixins/element-css-mixins",
+              "editUrl": "https://github.com/VisualComposer/docs/css-mixins/element-css-mixins.md",
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Meta Attributes",
+                "permalink": "/api-docs/element-attributes/meta-attributes"
+              }
+            },
             {
               "unversionedId": "element-attributes/attributes-onchange",
               "id": "element-attributes/attributes-onchange",
@@ -148,29 +174,6 @@
                 "permalink": "/api-docs/element-attributes/attributes-options"
               },
               "next": {
-                "title": "Element CSS Mixins",
-                "permalink": "/api-docs/element-attributes/element-css-mixins"
-              }
-            },
-            {
-              "unversionedId": "element-attributes/element-css-mixins",
-              "id": "element-attributes/element-css-mixins",
-              "isDocsHomePage": false,
-              "title": "Element CSS Mixins",
-              "description": "CSS Mixins",
-              "source": "@site/docs/element-attributes/element-css-mixins.md",
-              "sourceDirName": "element-attributes",
-              "slug": "/element-attributes/element-css-mixins",
-              "permalink": "/api-docs/element-attributes/element-css-mixins",
-              "editUrl": "https://github.com/VisualComposer/docs/element-attributes/element-css-mixins.md",
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Attributes",
-                "permalink": "/api-docs/element-attributes/element-attributes"
-              },
-              "next": {
                 "title": "Meta Attributes",
                 "permalink": "/api-docs/element-attributes/meta-attributes"
               }
@@ -190,8 +193,12 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
+                "title": "Attributes",
+                "permalink": "/api-docs/element-attributes/element-attributes"
+              },
+              "next": {
                 "title": "Element CSS Mixins",
-                "permalink": "/api-docs/element-attributes/element-css-mixins"
+                "permalink": "/api-docs/css-mixins/element-css-mixins"
               }
             },
             {

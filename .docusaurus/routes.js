@@ -39,12 +39,17 @@ export default [
 },
 {
   path: '/api-docs/',
-  component: ComponentCreator('/api-docs/','97e'),
+  component: ComponentCreator('/api-docs/','53f'),
   
   routes: [
 {
   path: '/api-docs/',
   component: ComponentCreator('/api-docs/','2af'),
+  exact: true,
+},
+{
+  path: '/api-docs/css-mixins/element-css-mixins',
+  component: ComponentCreator('/api-docs/css-mixins/element-css-mixins','849'),
   exact: true,
 },
 {
@@ -60,11 +65,6 @@ export default [
 {
   path: '/api-docs/element-attributes/element-attributes',
   component: ComponentCreator('/api-docs/element-attributes/element-attributes','dbc'),
-  exact: true,
-},
-{
-  path: '/api-docs/element-attributes/element-css-mixins',
-  component: ComponentCreator('/api-docs/element-attributes/element-css-mixins','6f3'),
   exact: true,
 },
 {

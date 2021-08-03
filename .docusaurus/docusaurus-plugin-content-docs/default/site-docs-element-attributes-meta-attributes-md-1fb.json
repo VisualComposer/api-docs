@@ -13,7 +13,11 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
+    "title": "Attributes",
+    "permalink": "/api-docs/element-attributes/element-attributes"
+  },
+  "next": {
     "title": "Element CSS Mixins",
-    "permalink": "/api-docs/element-attributes/element-css-mixins"
+    "permalink": "/api-docs/css-mixins/element-css-mixins"
   }
 }
