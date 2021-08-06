@@ -48,3 +48,4 @@ To develop Visual Composer element there are following technical requirements:
 * Element boilerplate repository: <a href="https://github.com/VisualComposer/elementBoilerplate" target="_blank">https://github.com/VisualComposer/elementBoilerplate</a>
 
 * WordPress Demo plugin with elements: <a href="https://github.com/VisualComposer/vcwb-demo-element-example-plugin" target="_blank">https://github.com/VisualComposer/vcwb-demo-element-example-plugin</a>
+
