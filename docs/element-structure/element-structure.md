@@ -23,7 +23,7 @@ There are certain files required to build element:
 
 ## Settings File
 
-> *settings.json* file example:
+*settings.json* file example:
 
 ```json
 {
@@ -91,7 +91,7 @@ Attributes may react to self or other attributes value change. The change is def
 
 ## Manifest File
 
-> *manifest.json* file example:
+*manifest.json* file example:
 
 ```json
 {
