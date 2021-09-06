@@ -40,7 +40,7 @@ jobs:
         env:
           USE_SSH: true
           GIT_USER: git,
-          CURRENT_BRANCH: master,
+          CURRENT_BRANCH: main,
         run: |
           git config --global user.email "n.hlopov@gmail.com"
           git config --global user.name "nikitahl"
