@@ -5,7 +5,7 @@ slug: /
 
 # Introduction
 
-Visual Composer API allows you to develop your own custom elements for the website builder. With custom elements, you are in charge of your element design and functionality which is crucial for advanced projects and allows perfectly align element choice to your brand.
+Visual Composer API allows you to develop your own custom elements for the website builder. With custom elements, you are in charge of your element design and functionality which is crucial for advanced projects and allows perfectly aligned element choice to your brand.
 
 This section contains all the information you need to develop custom elements, it will guide you on how to get started, provide information about hooks, attributes, and offer examples.
 
