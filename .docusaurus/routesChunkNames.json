@@ -1,80 +1,58 @@
 {
-  "/api-docs/__docusaurus/debug-515": {
-    "component": "component---theme-debug-config-23-a-2ff"
-  },
-  "/api-docs/__docusaurus/debug/config-2b7": {
-    "component": "component---theme-debug-config-23-a-2ff"
-  },
-  "/api-docs/__docusaurus/debug/content-447": {
-    "component": "component---theme-debug-contentba-8-ce7",
-    "allContent": "allContent---api-docs-docusaurus-debug-content-246-10d"
-  },
-  "/api-docs/__docusaurus/debug/globalData-440": {
-    "component": "component---theme-debug-global-dataede-0fa"
-  },
-  "/api-docs/__docusaurus/debug/metadata-ef8": {
-    "component": "component---theme-debug-site-metadata-68-e-3d4"
-  },
-  "/api-docs/__docusaurus/debug/registry-237": {
-    "component": "component---theme-debug-registry-679-501"
-  },
-  "/api-docs/__docusaurus/debug/routes-d7e": {
-    "component": "component---theme-debug-routes-946-699"
-  },
   "/api-docs/-46c": {
-    "component": "component---theme-doc-page-1-be-9be",
-    "versionMetadata": "versionMetadata---api-docs-935-5ae"
+    "component": "1be78505",
+    "versionMetadata": "935f2afb"
   },
   "/api-docs/-2af": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---api-docs-0-e-3-5d4"
+    "component": "17896441",
+    "content": "0e384e19"
   },
   "/api-docs/assets/assets-management-aca": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---api-docs-assets-assets-management-4-d-0-48e"
+    "component": "17896441",
+    "content": "4d03095a"
   },
   "/api-docs/css-mixins/element-css-mixins-849": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---api-docs-css-mixins-element-css-mixinsaa-9-2ce"
+    "component": "17896441",
+    "content": "aa9e44d9"
   },
   "/api-docs/dynamic-content/dynamic-content-0d1": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---api-docs-dynamic-content-dynamic-contentb-2-c-801"
+    "component": "17896441",
+    "content": "b2cd1968"
   },
   "/api-docs/element-attributes/attributes-onchange-ea9": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---api-docs-element-attributes-attributes-onchangeb-99-b9c"
+    "component": "17896441",
+    "content": "b99c2fd9"
   },
   "/api-docs/element-attributes/attributes-options-fa4": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---api-docs-element-attributes-attributes-optionsdfb-543"
+    "component": "17896441",
+    "content": "dfb1eb06"
   },
   "/api-docs/element-attributes/element-attributes-dbc": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---api-docs-element-attributes-element-attributes-00-f-798"
+    "component": "17896441",
+    "content": "00ff5883"
   },
   "/api-docs/element-attributes/meta-attributes-163": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---api-docs-element-attributes-meta-attributes-1-fb-501"
+    "component": "17896441",
+    "content": "1fb52499"
   },
   "/api-docs/element-component/element-component-methods-14c": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---api-docs-element-component-element-component-methods-0-d-5-ca7"
+    "component": "17896441",
+    "content": "0d53be23"
   },
   "/api-docs/element-component/render-custom-content-e60": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---api-docs-element-component-render-custom-contentd-19-362"
+    "component": "17896441",
+    "content": "d1964256"
   },
   "/api-docs/element-hook/element-hook-473": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---api-docs-element-hook-element-hook-522-67c"
+    "component": "17896441",
+    "content": "522bba54"
   },
   "/api-docs/element-structure/element-structure-588": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---api-docs-element-structure-element-structure-043-7ae"
+    "component": "17896441",
+    "content": "0437ba4e"
   },
   "/api-docs/inner-elements/inner-elements-b0e": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---api-docs-inner-elements-inner-elementsa-1-e-f83"
+    "component": "17896441",
+    "content": "a1ef08c5"
   }
 }
