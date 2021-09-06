@@ -1,83 +1,61 @@
 {
-  "/__docusaurus/debug-3d6": {
-    "component": "component---theme-debug-config-23-a-2ff"
-  },
-  "/__docusaurus/debug/config-914": {
-    "component": "component---theme-debug-config-23-a-2ff"
-  },
-  "/__docusaurus/debug/content-c28": {
-    "component": "component---theme-debug-contentba-8-ce7",
-    "allContent": "allContent---docusaurus-debug-content-246-9aa"
-  },
-  "/__docusaurus/debug/globalData-3cf": {
-    "component": "component---theme-debug-global-dataede-0fa"
-  },
-  "/__docusaurus/debug/metadata-31b": {
-    "component": "component---theme-debug-site-metadata-68-e-3d4"
-  },
-  "/__docusaurus/debug/registry-0da": {
-    "component": "component---theme-debug-registry-679-501"
-  },
-  "/__docusaurus/debug/routes-244": {
-    "component": "component---theme-debug-routes-946-699"
-  },
   "/search-daf": {
-    "component": "component---users-nikitahlopovs-documents-sites-api-docs-node-modules-docusaurus-preset-classic-node-modules-docusaurus-theme-search-algolia-src-theme-search-page-index-js-2-e-3-522"
+    "component": "2e3a174b"
   },
   "/-449": {
-    "component": "component---theme-doc-page-1-be-9be",
-    "versionMetadata": "versionMetadata---935-fcf"
+    "component": "1be78505",
+    "versionMetadata": "935f2afb"
   },
   "/-546": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---0-e-3-279"
+    "component": "17896441",
+    "content": "0e384e19"
   },
   "/assets/assets-management-d26": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---assets-assets-management-4-d-0-b39"
+    "component": "17896441",
+    "content": "4d03095a"
   },
   "/css-mixins/element-css-mixins-838": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---css-mixins-element-css-mixinsaa-9-634"
+    "component": "17896441",
+    "content": "aa9e44d9"
   },
   "/dynamic-content/dynamic-content-353": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---dynamic-content-dynamic-contentb-2-c-b25"
+    "component": "17896441",
+    "content": "b2cd1968"
   },
   "/element-attributes/attributes-onchange-a2d": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---element-attributes-attributes-onchangeb-99-2fe"
+    "component": "17896441",
+    "content": "b99c2fd9"
   },
   "/element-attributes/attributes-options-b9c": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---element-attributes-attributes-optionsdfb-de3"
+    "component": "17896441",
+    "content": "dfb1eb06"
   },
   "/element-attributes/element-attributes-f42": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---element-attributes-element-attributes-00-f-fee"
+    "component": "17896441",
+    "content": "00ff5883"
   },
   "/element-attributes/meta-attributes-034": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---element-attributes-meta-attributes-1-fb-eac"
+    "component": "17896441",
+    "content": "1fb52499"
   },
   "/element-component/element-component-methods-e5f": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---element-component-element-component-methods-0-d-5-799"
+    "component": "17896441",
+    "content": "0d53be23"
   },
   "/element-component/render-custom-content-3cc": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---element-component-render-custom-contentd-19-dc4"
+    "component": "17896441",
+    "content": "d1964256"
   },
   "/element-hook/element-hook-d70": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---element-hook-element-hook-522-7cd"
+    "component": "17896441",
+    "content": "522bba54"
   },
   "/element-structure/element-structure-cf8": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---element-structure-element-structure-043-b48"
+    "component": "17896441",
+    "content": "0437ba4e"
   },
   "/inner-elements/inner-elements-2da": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---inner-elements-inner-elementsa-1-e-09f"
+    "component": "17896441",
+    "content": "a1ef08c5"
   }
 }
