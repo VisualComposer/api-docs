@@ -7,17 +7,17 @@
   "source": "@site/docs/element-hook/element-hook.md",
   "sourceDirName": "element-hook",
   "slug": "/element-hook/element-hook",
-  "permalink": "/api-docs/element-hook/element-hook",
+  "permalink": "/element-hook/element-hook",
   "editUrl": "https://github.com/VisualComposer/docs/element-hook/element-hook.md",
   "version": "current",
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Element Structure",
-    "permalink": "/api-docs/element-structure/element-structure"
+    "permalink": "/element-structure/element-structure"
   },
   "next": {
     "title": "Attributes onChange",
-    "permalink": "/api-docs/element-attributes/attributes-onchange"
+    "permalink": "/element-attributes/attributes-onchange"
   }
 }

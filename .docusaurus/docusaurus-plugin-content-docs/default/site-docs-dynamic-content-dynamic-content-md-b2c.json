@@ -7,13 +7,13 @@
   "source": "@site/docs/dynamic-content/dynamic-content.md",
   "sourceDirName": "dynamic-content",
   "slug": "/dynamic-content/dynamic-content",
-  "permalink": "/api-docs/dynamic-content/dynamic-content",
+  "permalink": "/dynamic-content/dynamic-content",
   "editUrl": "https://github.com/VisualComposer/docs/dynamic-content/dynamic-content.md",
   "version": "current",
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Assets management",
-    "permalink": "/api-docs/assets/assets-management"
+    "permalink": "/assets/assets-management"
   }
 }

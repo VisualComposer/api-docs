@@ -1,78 +1,78 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/api-docs/",
+      "path": "/",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/api-docs/",
+          "path": "/",
           "mainDocId": "intro",
           "docs": [
             {
               "id": "assets/assets-management",
-              "path": "/api-docs/assets/assets-management",
+              "path": "/assets/assets-management",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "css-mixins/element-css-mixins",
-              "path": "/api-docs/css-mixins/element-css-mixins",
+              "path": "/css-mixins/element-css-mixins",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "dynamic-content/dynamic-content",
-              "path": "/api-docs/dynamic-content/dynamic-content",
+              "path": "/dynamic-content/dynamic-content",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "element-attributes/attributes-onchange",
-              "path": "/api-docs/element-attributes/attributes-onchange",
+              "path": "/element-attributes/attributes-onchange",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "element-attributes/attributes-options",
-              "path": "/api-docs/element-attributes/attributes-options",
+              "path": "/element-attributes/attributes-options",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "element-attributes/element-attributes",
-              "path": "/api-docs/element-attributes/element-attributes",
+              "path": "/element-attributes/element-attributes",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "element-attributes/meta-attributes",
-              "path": "/api-docs/element-attributes/meta-attributes",
+              "path": "/element-attributes/meta-attributes",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "element-component/element-component-methods",
-              "path": "/api-docs/element-component/element-component-methods",
+              "path": "/element-component/element-component-methods",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "element-component/render-custom-content",
-              "path": "/api-docs/element-component/render-custom-content",
+              "path": "/element-component/render-custom-content",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "element-hook/element-hook",
-              "path": "/api-docs/element-hook/element-hook",
+              "path": "/element-hook/element-hook",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "element-structure/element-structure",
-              "path": "/api-docs/element-structure/element-structure",
+              "path": "/element-structure/element-structure",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "inner-elements/inner-elements",
-              "path": "/api-docs/inner-elements/inner-elements",
+              "path": "/inner-elements/inner-elements",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "intro",
-              "path": "/api-docs/",
+              "path": "/",
               "sidebar": "tutorialSidebar"
             }
           ]

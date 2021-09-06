@@ -1,8 +1,8 @@
 export default {
   "title": "Visual Composer",
   "tagline": "Visual Composer Website Builder API",
-  "url": "https://visualcomposer.github.io/",
-  "baseUrl": "/api-docs/",
+  "url": "https://dev.visualcomposer.com",
+  "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/cropped-vcwb-favico-32x32.png",
@@ -80,6 +80,13 @@ export default {
         }
       ],
       "copyright": "Copyright © 2021 Visual Composer. Built with <a href=\"https://docusaurus.io/\" target=\"_blank\" rel=\"noreferrer noopener\">Docusaurus</a>."
+    },
+    "algolia": {
+      "apiKey": "YOUR_API_KEY",
+      "indexName": "YOUR_INDEX_NAME",
+      "contextualSearch": true,
+      "appId": "YOUR_APP_ID",
+      "searchParameters": {}
     },
     "colorMode": {
       "defaultMode": "light",

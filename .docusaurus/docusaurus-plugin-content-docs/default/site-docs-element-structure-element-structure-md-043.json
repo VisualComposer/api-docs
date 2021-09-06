@@ -7,7 +7,7 @@
   "source": "@site/docs/element-structure/element-structure.md",
   "sourceDirName": "element-structure",
   "slug": "/element-structure/element-structure",
-  "permalink": "/api-docs/element-structure/element-structure",
+  "permalink": "/element-structure/element-structure",
   "editUrl": "https://github.com/VisualComposer/docs/element-structure/element-structure.md",
   "version": "current",
   "sidebarPosition": 1,
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Introduction",
-    "permalink": "/api-docs/"
+    "permalink": "/"
   },
   "next": {
     "title": "Element Hook",
-    "permalink": "/api-docs/element-hook/element-hook"
+    "permalink": "/element-hook/element-hook"
   }
 }

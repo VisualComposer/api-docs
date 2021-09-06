@@ -5,7 +5,7 @@
         {
           "versionName": "current",
           "versionLabel": "Next",
-          "versionPath": "/api-docs/",
+          "versionPath": "/",
           "versionEditUrl": "https://github.com/VisualComposer/docs",
           "versionEditUrlLocalized": "https://github.com/VisualComposer/i18n/en/docusaurus-plugin-content-docs/current",
           "versionBanner": "none",
@@ -128,19 +128,19 @@
             ]
           },
           "permalinkToSidebar": {
-            "/api-docs/assets/assets-management": "tutorialSidebar",
-            "/api-docs/css-mixins/element-css-mixins": "tutorialSidebar",
-            "/api-docs/dynamic-content/dynamic-content": "tutorialSidebar",
-            "/api-docs/element-attributes/attributes-onchange": "tutorialSidebar",
-            "/api-docs/element-attributes/attributes-options": "tutorialSidebar",
-            "/api-docs/element-attributes/element-attributes": "tutorialSidebar",
-            "/api-docs/element-attributes/meta-attributes": "tutorialSidebar",
-            "/api-docs/element-component/element-component-methods": "tutorialSidebar",
-            "/api-docs/element-component/render-custom-content": "tutorialSidebar",
-            "/api-docs/element-hook/element-hook": "tutorialSidebar",
-            "/api-docs/element-structure/element-structure": "tutorialSidebar",
-            "/api-docs/inner-elements/inner-elements": "tutorialSidebar",
-            "/api-docs/": "tutorialSidebar"
+            "/assets/assets-management": "tutorialSidebar",
+            "/css-mixins/element-css-mixins": "tutorialSidebar",
+            "/dynamic-content/dynamic-content": "tutorialSidebar",
+            "/element-attributes/attributes-onchange": "tutorialSidebar",
+            "/element-attributes/attributes-options": "tutorialSidebar",
+            "/element-attributes/element-attributes": "tutorialSidebar",
+            "/element-attributes/meta-attributes": "tutorialSidebar",
+            "/element-component/element-component-methods": "tutorialSidebar",
+            "/element-component/render-custom-content": "tutorialSidebar",
+            "/element-hook/element-hook": "tutorialSidebar",
+            "/element-structure/element-structure": "tutorialSidebar",
+            "/inner-elements/inner-elements": "tutorialSidebar",
+            "/": "tutorialSidebar"
           },
           "docs": [
             {
@@ -152,18 +152,18 @@
               "source": "@site/docs/assets/assets-management.md",
               "sourceDirName": "assets",
               "slug": "/assets/assets-management",
-              "permalink": "/api-docs/assets/assets-management",
+              "permalink": "/assets/assets-management",
               "editUrl": "https://github.com/VisualComposer/docs/assets/assets-management.md",
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Render Custom Content",
-                "permalink": "/api-docs/element-component/render-custom-content"
+                "permalink": "/element-component/render-custom-content"
               },
               "next": {
                 "title": "Dynamic Content",
-                "permalink": "/api-docs/dynamic-content/dynamic-content"
+                "permalink": "/dynamic-content/dynamic-content"
               }
             },
             {
@@ -175,18 +175,18 @@
               "source": "@site/docs/css-mixins/element-css-mixins.md",
               "sourceDirName": "css-mixins",
               "slug": "/css-mixins/element-css-mixins",
-              "permalink": "/api-docs/css-mixins/element-css-mixins",
+              "permalink": "/css-mixins/element-css-mixins",
               "editUrl": "https://github.com/VisualComposer/docs/css-mixins/element-css-mixins.md",
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Meta Attributes",
-                "permalink": "/api-docs/element-attributes/meta-attributes"
+                "permalink": "/element-attributes/meta-attributes"
               },
               "next": {
                 "title": "Inner Elements",
-                "permalink": "/api-docs/inner-elements/inner-elements"
+                "permalink": "/inner-elements/inner-elements"
               }
             },
             {
@@ -198,14 +198,14 @@
               "source": "@site/docs/dynamic-content/dynamic-content.md",
               "sourceDirName": "dynamic-content",
               "slug": "/dynamic-content/dynamic-content",
-              "permalink": "/api-docs/dynamic-content/dynamic-content",
+              "permalink": "/dynamic-content/dynamic-content",
               "editUrl": "https://github.com/VisualComposer/docs/dynamic-content/dynamic-content.md",
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Assets management",
-                "permalink": "/api-docs/assets/assets-management"
+                "permalink": "/assets/assets-management"
               }
             },
             {
@@ -217,18 +217,18 @@
               "source": "@site/docs/element-attributes/attributes-onchange.md",
               "sourceDirName": "element-attributes",
               "slug": "/element-attributes/attributes-onchange",
-              "permalink": "/api-docs/element-attributes/attributes-onchange",
+              "permalink": "/element-attributes/attributes-onchange",
               "editUrl": "https://github.com/VisualComposer/docs/element-attributes/attributes-onchange.md",
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Element Hook",
-                "permalink": "/api-docs/element-hook/element-hook"
+                "permalink": "/element-hook/element-hook"
               },
               "next": {
                 "title": "Attributes Options",
-                "permalink": "/api-docs/element-attributes/attributes-options"
+                "permalink": "/element-attributes/attributes-options"
               }
             },
             {
@@ -240,18 +240,18 @@
               "source": "@site/docs/element-attributes/attributes-options.md",
               "sourceDirName": "element-attributes",
               "slug": "/element-attributes/attributes-options",
-              "permalink": "/api-docs/element-attributes/attributes-options",
+              "permalink": "/element-attributes/attributes-options",
               "editUrl": "https://github.com/VisualComposer/docs/element-attributes/attributes-options.md",
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Attributes onChange",
-                "permalink": "/api-docs/element-attributes/attributes-onchange"
+                "permalink": "/element-attributes/attributes-onchange"
               },
               "next": {
                 "title": "Attributes",
-                "permalink": "/api-docs/element-attributes/element-attributes"
+                "permalink": "/element-attributes/element-attributes"
               }
             },
             {
@@ -263,18 +263,18 @@
               "source": "@site/docs/element-attributes/element-attributes.md",
               "sourceDirName": "element-attributes",
               "slug": "/element-attributes/element-attributes",
-              "permalink": "/api-docs/element-attributes/element-attributes",
+              "permalink": "/element-attributes/element-attributes",
               "editUrl": "https://github.com/VisualComposer/docs/element-attributes/element-attributes.md",
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Attributes Options",
-                "permalink": "/api-docs/element-attributes/attributes-options"
+                "permalink": "/element-attributes/attributes-options"
               },
               "next": {
                 "title": "Meta Attributes",
-                "permalink": "/api-docs/element-attributes/meta-attributes"
+                "permalink": "/element-attributes/meta-attributes"
               }
             },
             {
@@ -286,18 +286,18 @@
               "source": "@site/docs/element-attributes/meta-attributes.md",
               "sourceDirName": "element-attributes",
               "slug": "/element-attributes/meta-attributes",
-              "permalink": "/api-docs/element-attributes/meta-attributes",
+              "permalink": "/element-attributes/meta-attributes",
               "editUrl": "https://github.com/VisualComposer/docs/element-attributes/meta-attributes.md",
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Attributes",
-                "permalink": "/api-docs/element-attributes/element-attributes"
+                "permalink": "/element-attributes/element-attributes"
               },
               "next": {
                 "title": "Element CSS Mixins",
-                "permalink": "/api-docs/css-mixins/element-css-mixins"
+                "permalink": "/css-mixins/element-css-mixins"
               }
             },
             {
@@ -309,18 +309,18 @@
               "source": "@site/docs/element-component/element-component-methods.md",
               "sourceDirName": "element-component",
               "slug": "/element-component/element-component-methods",
-              "permalink": "/api-docs/element-component/element-component-methods",
+              "permalink": "/element-component/element-component-methods",
               "editUrl": "https://github.com/VisualComposer/docs/element-component/element-component-methods.md",
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Inner Elements",
-                "permalink": "/api-docs/inner-elements/inner-elements"
+                "permalink": "/inner-elements/inner-elements"
               },
               "next": {
                 "title": "Render Custom Content",
-                "permalink": "/api-docs/element-component/render-custom-content"
+                "permalink": "/element-component/render-custom-content"
               }
             },
             {
@@ -332,18 +332,18 @@
               "source": "@site/docs/element-component/render-custom-content.md",
               "sourceDirName": "element-component",
               "slug": "/element-component/render-custom-content",
-              "permalink": "/api-docs/element-component/render-custom-content",
+              "permalink": "/element-component/render-custom-content",
               "editUrl": "https://github.com/VisualComposer/docs/element-component/render-custom-content.md",
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Element Component Methods",
-                "permalink": "/api-docs/element-component/element-component-methods"
+                "permalink": "/element-component/element-component-methods"
               },
               "next": {
                 "title": "Assets management",
-                "permalink": "/api-docs/assets/assets-management"
+                "permalink": "/assets/assets-management"
               }
             },
             {
@@ -355,18 +355,18 @@
               "source": "@site/docs/element-hook/element-hook.md",
               "sourceDirName": "element-hook",
               "slug": "/element-hook/element-hook",
-              "permalink": "/api-docs/element-hook/element-hook",
+              "permalink": "/element-hook/element-hook",
               "editUrl": "https://github.com/VisualComposer/docs/element-hook/element-hook.md",
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Element Structure",
-                "permalink": "/api-docs/element-structure/element-structure"
+                "permalink": "/element-structure/element-structure"
               },
               "next": {
                 "title": "Attributes onChange",
-                "permalink": "/api-docs/element-attributes/attributes-onchange"
+                "permalink": "/element-attributes/attributes-onchange"
               }
             },
             {
@@ -378,7 +378,7 @@
               "source": "@site/docs/element-structure/element-structure.md",
               "sourceDirName": "element-structure",
               "slug": "/element-structure/element-structure",
-              "permalink": "/api-docs/element-structure/element-structure",
+              "permalink": "/element-structure/element-structure",
               "editUrl": "https://github.com/VisualComposer/docs/element-structure/element-structure.md",
               "version": "current",
               "sidebarPosition": 1,
@@ -388,11 +388,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Introduction",
-                "permalink": "/api-docs/"
+                "permalink": "/"
               },
               "next": {
                 "title": "Element Hook",
-                "permalink": "/api-docs/element-hook/element-hook"
+                "permalink": "/element-hook/element-hook"
               }
             },
             {
@@ -404,18 +404,18 @@
               "source": "@site/docs/inner-elements/inner-elements.md",
               "sourceDirName": "inner-elements",
               "slug": "/inner-elements/inner-elements",
-              "permalink": "/api-docs/inner-elements/inner-elements",
+              "permalink": "/inner-elements/inner-elements",
               "editUrl": "https://github.com/VisualComposer/docs/inner-elements/inner-elements.md",
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Element CSS Mixins",
-                "permalink": "/api-docs/css-mixins/element-css-mixins"
+                "permalink": "/css-mixins/element-css-mixins"
               },
               "next": {
                 "title": "Element Component Methods",
-                "permalink": "/api-docs/element-component/element-component-methods"
+                "permalink": "/element-component/element-component-methods"
               }
             },
             {
@@ -423,11 +423,11 @@
               "id": "intro",
               "isDocsHomePage": false,
               "title": "Introduction",
-              "description": "Visual Composer API allows you to develop your own custom elements for the website builder. With custom elements, you are in charge of your element design and functionality which is crucial for advanced projects and allows perfectly align element choice to your brand.",
+              "description": "Visual Composer API allows you to develop your own custom elements for the website builder. With custom elements, you are in charge of your element design and functionality which is crucial for advanced projects and allows perfectly aligned element choice to your brand.",
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
               "slug": "/",
-              "permalink": "/api-docs/",
+              "permalink": "/",
               "editUrl": "https://github.com/VisualComposer/docs/intro.md",
               "version": "current",
               "sidebarPosition": 1,
@@ -438,7 +438,7 @@
               "sidebar": "tutorialSidebar",
               "next": {
                 "title": "Element Structure",
-                "permalink": "/api-docs/element-structure/element-structure"
+                "permalink": "/element-structure/element-structure"
               }
             }
           ]
@@ -461,6 +461,9 @@
     "default": null
   },
   "docusaurus-theme-classic": {
+    "default": null
+  },
+  "docusaurus-theme-search-algolia": {
     "default": null
   }
 }

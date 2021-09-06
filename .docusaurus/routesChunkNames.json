@@ -1,80 +1,83 @@
 {
-  "/api-docs/__docusaurus/debug-515": {
+  "/__docusaurus/debug-3d6": {
     "component": "component---theme-debug-config-23-a-2ff"
   },
-  "/api-docs/__docusaurus/debug/config-2b7": {
+  "/__docusaurus/debug/config-914": {
     "component": "component---theme-debug-config-23-a-2ff"
   },
-  "/api-docs/__docusaurus/debug/content-447": {
+  "/__docusaurus/debug/content-c28": {
     "component": "component---theme-debug-contentba-8-ce7",
-    "allContent": "allContent---api-docs-docusaurus-debug-content-246-10d"
+    "allContent": "allContent---docusaurus-debug-content-246-9aa"
   },
-  "/api-docs/__docusaurus/debug/globalData-440": {
+  "/__docusaurus/debug/globalData-3cf": {
     "component": "component---theme-debug-global-dataede-0fa"
   },
-  "/api-docs/__docusaurus/debug/metadata-ef8": {
+  "/__docusaurus/debug/metadata-31b": {
     "component": "component---theme-debug-site-metadata-68-e-3d4"
   },
-  "/api-docs/__docusaurus/debug/registry-237": {
+  "/__docusaurus/debug/registry-0da": {
     "component": "component---theme-debug-registry-679-501"
   },
-  "/api-docs/__docusaurus/debug/routes-d7e": {
+  "/__docusaurus/debug/routes-244": {
     "component": "component---theme-debug-routes-946-699"
   },
-  "/api-docs/-46c": {
+  "/search-daf": {
+    "component": "component---users-nikitahlopovs-documents-sites-api-docs-node-modules-docusaurus-preset-classic-node-modules-docusaurus-theme-search-algolia-src-theme-search-page-index-js-2-e-3-522"
+  },
+  "/-449": {
     "component": "component---theme-doc-page-1-be-9be",
-    "versionMetadata": "versionMetadata---api-docs-935-5ae"
+    "versionMetadata": "versionMetadata---935-fcf"
   },
-  "/api-docs/-2af": {
+  "/-546": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---api-docs-0-e-3-5d4"
+    "content": "content---0-e-3-279"
   },
-  "/api-docs/assets/assets-management-aca": {
+  "/assets/assets-management-d26": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---api-docs-assets-assets-management-4-d-0-48e"
+    "content": "content---assets-assets-management-4-d-0-b39"
   },
-  "/api-docs/css-mixins/element-css-mixins-849": {
+  "/css-mixins/element-css-mixins-838": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---api-docs-css-mixins-element-css-mixinsaa-9-2ce"
+    "content": "content---css-mixins-element-css-mixinsaa-9-634"
   },
-  "/api-docs/dynamic-content/dynamic-content-0d1": {
+  "/dynamic-content/dynamic-content-353": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---api-docs-dynamic-content-dynamic-contentb-2-c-801"
+    "content": "content---dynamic-content-dynamic-contentb-2-c-b25"
   },
-  "/api-docs/element-attributes/attributes-onchange-ea9": {
+  "/element-attributes/attributes-onchange-a2d": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---api-docs-element-attributes-attributes-onchangeb-99-b9c"
+    "content": "content---element-attributes-attributes-onchangeb-99-2fe"
   },
-  "/api-docs/element-attributes/attributes-options-fa4": {
+  "/element-attributes/attributes-options-b9c": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---api-docs-element-attributes-attributes-optionsdfb-543"
+    "content": "content---element-attributes-attributes-optionsdfb-de3"
   },
-  "/api-docs/element-attributes/element-attributes-dbc": {
+  "/element-attributes/element-attributes-f42": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---api-docs-element-attributes-element-attributes-00-f-798"
+    "content": "content---element-attributes-element-attributes-00-f-fee"
   },
-  "/api-docs/element-attributes/meta-attributes-163": {
+  "/element-attributes/meta-attributes-034": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---api-docs-element-attributes-meta-attributes-1-fb-501"
+    "content": "content---element-attributes-meta-attributes-1-fb-eac"
   },
-  "/api-docs/element-component/element-component-methods-14c": {
+  "/element-component/element-component-methods-e5f": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---api-docs-element-component-element-component-methods-0-d-5-ca7"
+    "content": "content---element-component-element-component-methods-0-d-5-799"
   },
-  "/api-docs/element-component/render-custom-content-e60": {
+  "/element-component/render-custom-content-3cc": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---api-docs-element-component-render-custom-contentd-19-362"
+    "content": "content---element-component-render-custom-contentd-19-dc4"
   },
-  "/api-docs/element-hook/element-hook-473": {
+  "/element-hook/element-hook-d70": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---api-docs-element-hook-element-hook-522-67c"
+    "content": "content---element-hook-element-hook-522-7cd"
   },
-  "/api-docs/element-structure/element-structure-588": {
+  "/element-structure/element-structure-cf8": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---api-docs-element-structure-element-structure-043-7ae"
+    "content": "content---element-structure-element-structure-043-b48"
   },
-  "/api-docs/inner-elements/inner-elements-b0e": {
+  "/inner-elements/inner-elements-2da": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---api-docs-inner-elements-inner-elementsa-1-e-f83"
+    "content": "content---inner-elements-inner-elementsa-1-e-09f"
   }
 }

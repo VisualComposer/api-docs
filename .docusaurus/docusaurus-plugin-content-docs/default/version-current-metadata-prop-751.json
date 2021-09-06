@@ -9,7 +9,7 @@
       {
         "type": "link",
         "label": "Introduction",
-        "href": "/api-docs/"
+        "href": "/"
       },
       {
         "type": "category",
@@ -18,7 +18,7 @@
           {
             "type": "link",
             "label": "Element Structure",
-            "href": "/api-docs/element-structure/element-structure"
+            "href": "/element-structure/element-structure"
           }
         ],
         "collapsed": true
@@ -30,7 +30,7 @@
           {
             "type": "link",
             "label": "Element Hook",
-            "href": "/api-docs/element-hook/element-hook"
+            "href": "/element-hook/element-hook"
           }
         ],
         "collapsed": true
@@ -42,22 +42,22 @@
           {
             "type": "link",
             "label": "Attributes onChange",
-            "href": "/api-docs/element-attributes/attributes-onchange"
+            "href": "/element-attributes/attributes-onchange"
           },
           {
             "type": "link",
             "label": "Attributes Options",
-            "href": "/api-docs/element-attributes/attributes-options"
+            "href": "/element-attributes/attributes-options"
           },
           {
             "type": "link",
             "label": "Attributes",
-            "href": "/api-docs/element-attributes/element-attributes"
+            "href": "/element-attributes/element-attributes"
           },
           {
             "type": "link",
             "label": "Meta Attributes",
-            "href": "/api-docs/element-attributes/meta-attributes"
+            "href": "/element-attributes/meta-attributes"
           }
         ],
         "collapsed": true
@@ -69,7 +69,7 @@
           {
             "type": "link",
             "label": "Element CSS Mixins",
-            "href": "/api-docs/css-mixins/element-css-mixins"
+            "href": "/css-mixins/element-css-mixins"
           }
         ],
         "collapsed": true
@@ -81,7 +81,7 @@
           {
             "type": "link",
             "label": "Inner Elements",
-            "href": "/api-docs/inner-elements/inner-elements"
+            "href": "/inner-elements/inner-elements"
           }
         ],
         "collapsed": true
@@ -93,12 +93,12 @@
           {
             "type": "link",
             "label": "Element Component Methods",
-            "href": "/api-docs/element-component/element-component-methods"
+            "href": "/element-component/element-component-methods"
           },
           {
             "type": "link",
             "label": "Render Custom Content",
-            "href": "/api-docs/element-component/render-custom-content"
+            "href": "/element-component/render-custom-content"
           }
         ],
         "collapsed": true
@@ -110,7 +110,7 @@
           {
             "type": "link",
             "label": "Assets management",
-            "href": "/api-docs/assets/assets-management"
+            "href": "/assets/assets-management"
           }
         ],
         "collapsed": true
@@ -122,7 +122,7 @@
           {
             "type": "link",
             "label": "Dynamic Content",
-            "href": "/api-docs/dynamic-content/dynamic-content"
+            "href": "/dynamic-content/dynamic-content"
           }
         ],
         "collapsed": true
@@ -130,18 +130,18 @@
     ]
   },
   "permalinkToSidebar": {
-    "/api-docs/assets/assets-management": "tutorialSidebar",
-    "/api-docs/css-mixins/element-css-mixins": "tutorialSidebar",
-    "/api-docs/dynamic-content/dynamic-content": "tutorialSidebar",
-    "/api-docs/element-attributes/attributes-onchange": "tutorialSidebar",
-    "/api-docs/element-attributes/attributes-options": "tutorialSidebar",
-    "/api-docs/element-attributes/element-attributes": "tutorialSidebar",
-    "/api-docs/element-attributes/meta-attributes": "tutorialSidebar",
-    "/api-docs/element-component/element-component-methods": "tutorialSidebar",
-    "/api-docs/element-component/render-custom-content": "tutorialSidebar",
-    "/api-docs/element-hook/element-hook": "tutorialSidebar",
-    "/api-docs/element-structure/element-structure": "tutorialSidebar",
-    "/api-docs/inner-elements/inner-elements": "tutorialSidebar",
-    "/api-docs/": "tutorialSidebar"
+    "/assets/assets-management": "tutorialSidebar",
+    "/css-mixins/element-css-mixins": "tutorialSidebar",
+    "/dynamic-content/dynamic-content": "tutorialSidebar",
+    "/element-attributes/attributes-onchange": "tutorialSidebar",
+    "/element-attributes/attributes-options": "tutorialSidebar",
+    "/element-attributes/element-attributes": "tutorialSidebar",
+    "/element-attributes/meta-attributes": "tutorialSidebar",
+    "/element-component/element-component-methods": "tutorialSidebar",
+    "/element-component/render-custom-content": "tutorialSidebar",
+    "/element-hook/element-hook": "tutorialSidebar",
+    "/element-structure/element-structure": "tutorialSidebar",
+    "/inner-elements/inner-elements": "tutorialSidebar",
+    "/": "tutorialSidebar"
   }
 }

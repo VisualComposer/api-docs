@@ -12,10 +12,10 @@ There are certain files required to build element:
 * **package.json** – npm install/update files for required node modules;
 * **webpack.config** – files to build a component with Webpack;
 * **Directory {tag}:**
-* **cssMixins directory** – [cssMixin.pcss](/api-docs/css-mixins/element-css-mixins): POSTCSS file that holds mixin for custom generated style;
+* **cssMixins directory** – [cssMixin.pcss](/css-mixins/element-css-mixins): POSTCSS file that holds mixin for custom generated style;
 * **public directory** – may contain custom CSS, JS, and images for public view
 * **index.js** – the main file, build with Webpack;
-* **component.js** – ReactJs component contains VCWB editor component. This component is used only in the editor and contains [element built-in methods](/api-docs/element-component/element-component-methods) that provide additional functionality.
+* **component.js** – ReactJs component contains VCWB editor component. This component is used only in the editor and contains [element built-in methods](/element-component/element-component-methods) that provide additional functionality.
 * **settings.json** – describes element attributes;
 * **.php files** – required PHP files (*must be described in ../manifest.json*);
 * **editor.css** – CSS files which will be used only in the editor;

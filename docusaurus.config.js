@@ -2,7 +2,7 @@
 module.exports = {
   title: 'Visual Composer',
   tagline: 'Visual Composer Website Builder API',
-  url: 'dev.visualcomposer.com',
+  url: 'https://dev.visualcomposer.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -79,6 +79,13 @@ module.exports = {
         },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Visual Composer. Built with <a href="https://docusaurus.io/" target="_blank" rel="noreferrer noopener">Docusaurus</a>.`,
+    },
+    algolia: {
+      apiKey: 'YOUR_API_KEY',
+      indexName: 'YOUR_INDEX_NAME',
+      contextualSearch: true,
+      appId: 'YOUR_APP_ID',
+      searchParameters: {}
     },
   },
   presets: [

@@ -7,17 +7,17 @@
   "source": "@site/docs/element-attributes/element-attributes.md",
   "sourceDirName": "element-attributes",
   "slug": "/element-attributes/element-attributes",
-  "permalink": "/api-docs/element-attributes/element-attributes",
+  "permalink": "/element-attributes/element-attributes",
   "editUrl": "https://github.com/VisualComposer/docs/element-attributes/element-attributes.md",
   "version": "current",
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Attributes Options",
-    "permalink": "/api-docs/element-attributes/attributes-options"
+    "permalink": "/element-attributes/attributes-options"
   },
   "next": {
     "title": "Meta Attributes",
-    "permalink": "/api-docs/element-attributes/meta-attributes"
+    "permalink": "/element-attributes/meta-attributes"
   }
 }

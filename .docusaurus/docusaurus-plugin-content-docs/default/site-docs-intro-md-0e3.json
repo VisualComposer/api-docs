@@ -3,11 +3,11 @@
   "id": "intro",
   "isDocsHomePage": false,
   "title": "Introduction",
-  "description": "Visual Composer API allows you to develop your own custom elements for the website builder. With custom elements, you are in charge of your element design and functionality which is crucial for advanced projects and allows perfectly align element choice to your brand.",
+  "description": "Visual Composer API allows you to develop your own custom elements for the website builder. With custom elements, you are in charge of your element design and functionality which is crucial for advanced projects and allows perfectly aligned element choice to your brand.",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/",
-  "permalink": "/api-docs/",
+  "permalink": "/",
   "editUrl": "https://github.com/VisualComposer/docs/intro.md",
   "version": "current",
   "sidebarPosition": 1,
@@ -18,6 +18,6 @@
   "sidebar": "tutorialSidebar",
   "next": {
     "title": "Element Structure",
-    "permalink": "/api-docs/element-structure/element-structure"
+    "permalink": "/element-structure/element-structure"
   }
 }
