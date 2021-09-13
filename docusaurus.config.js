@@ -11,6 +11,7 @@ module.exports = {
   projectName: 'api-docs', // Usually your repo name.
   trailingSlash: false,
   themeConfig: {
+    image: 'img/visual-composer-api-for-developers-1.png',
     navbar: {
       title: '',
       logo: {
