@@ -10,6 +10,7 @@ export default {
   "projectName": "api-docs",
   "trailingSlash": false,
   "themeConfig": {
+    "image": "img/visual-composer-api-for-developers-1.png",
     "navbar": {
       "title": "",
       "logo": {
@@ -82,11 +83,11 @@ export default {
       "copyright": "Copyright © 2021 Visual Composer. Built with <a href=\"https://docusaurus.io/\" target=\"_blank\" rel=\"noreferrer noopener\">Docusaurus</a>."
     },
     "algolia": {
-      "apiKey": "YOUR_API_KEY",
-      "indexName": "YOUR_INDEX_NAME",
+      "apiKey": "9d6f4e128370d929a45637f04ab12747",
+      "indexName": "visualcomposer",
       "contextualSearch": true,
-      "appId": "YOUR_APP_ID",
-      "searchParameters": {}
+      "searchParameters": {},
+      "appId": "BH4D9OD16A"
     },
     "colorMode": {
       "defaultMode": "light",

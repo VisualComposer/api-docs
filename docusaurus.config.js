@@ -82,10 +82,9 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Visual Composer. Built with <a href="https://docusaurus.io/" target="_blank" rel="noreferrer noopener">Docusaurus</a>.`,
     },
     algolia: {
-      apiKey: 'YOUR_API_KEY',
-      indexName: 'YOUR_INDEX_NAME',
+      apiKey: '9d6f4e128370d929a45637f04ab12747',
+      indexName: 'visualcomposer',
       contextualSearch: true,
-      appId: 'YOUR_APP_ID',
       searchParameters: {}
     },
   },
