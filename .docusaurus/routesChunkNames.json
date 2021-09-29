@@ -1,60 +1,68 @@
 {
-  "/search-daf": {
-    "component": "2e3a174b"
+  "/blog/archive-f4c": {
+    "component": "9e4087bc",
+    "archive": "b2f554cd"
   },
-  "/-449": {
+  "/search-d7d": {
+    "component": "2b976a1d"
+  },
+  "/tags-d7a": {
+    "component": "3720c009",
+    "tags": "55960ee5"
+  },
+  "/-906": {
     "component": "1be78505",
     "versionMetadata": "935f2afb"
   },
-  "/-546": {
+  "/-96c": {
     "component": "17896441",
     "content": "0e384e19"
   },
-  "/assets/assets-management-d26": {
+  "/assets/assets-management-104": {
     "component": "17896441",
     "content": "4d03095a"
   },
-  "/css-mixins/element-css-mixins-838": {
+  "/css-mixins/element-css-mixins-46f": {
     "component": "17896441",
     "content": "aa9e44d9"
   },
-  "/dynamic-content/dynamic-content-353": {
+  "/dynamic-content/dynamic-content-193": {
     "component": "17896441",
     "content": "b2cd1968"
   },
-  "/element-attributes/attributes-onchange-a2d": {
+  "/element-attributes/attributes-onchange-edd": {
     "component": "17896441",
     "content": "b99c2fd9"
   },
-  "/element-attributes/attributes-options-b9c": {
+  "/element-attributes/attributes-options-585": {
     "component": "17896441",
     "content": "dfb1eb06"
   },
-  "/element-attributes/element-attributes-f42": {
+  "/element-attributes/element-attributes-49e": {
     "component": "17896441",
     "content": "00ff5883"
   },
-  "/element-attributes/meta-attributes-034": {
+  "/element-attributes/meta-attributes-5e7": {
     "component": "17896441",
     "content": "1fb52499"
   },
-  "/element-component/element-component-methods-e5f": {
+  "/element-component/element-component-methods-cfa": {
     "component": "17896441",
     "content": "0d53be23"
   },
-  "/element-component/render-custom-content-3cc": {
+  "/element-component/render-custom-content-c05": {
     "component": "17896441",
     "content": "d1964256"
   },
-  "/element-hook/element-hook-d70": {
+  "/element-hook/element-hook-c32": {
     "component": "17896441",
     "content": "522bba54"
   },
-  "/element-structure/element-structure-cf8": {
+  "/element-structure/element-structure-d14": {
     "component": "17896441",
     "content": "0437ba4e"
   },
-  "/inner-elements/inner-elements-2da": {
+  "/inner-elements/inner-elements-02d": {
     "component": "17896441",
     "content": "a1ef08c5"
   }

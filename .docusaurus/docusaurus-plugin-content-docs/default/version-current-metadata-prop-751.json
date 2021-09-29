@@ -2,7 +2,9 @@
   "pluginId": "default",
   "version": "current",
   "label": "Next",
-  "banner": "none",
+  "banner": null,
+  "badge": false,
+  "className": "docs-version-current",
   "isLast": true,
   "docsSidebars": {
     "tutorialSidebar": [
@@ -21,7 +23,8 @@
             "href": "/element-structure/element-structure"
           }
         ],
-        "collapsed": true
+        "collapsed": true,
+        "collapsible": true
       },
       {
         "type": "category",
@@ -33,7 +36,8 @@
             "href": "/element-hook/element-hook"
           }
         ],
-        "collapsed": true
+        "collapsed": true,
+        "collapsible": true
       },
       {
         "type": "category",
@@ -60,7 +64,8 @@
             "href": "/element-attributes/meta-attributes"
           }
         ],
-        "collapsed": true
+        "collapsed": true,
+        "collapsible": true
       },
       {
         "type": "category",
@@ -72,7 +77,8 @@
             "href": "/css-mixins/element-css-mixins"
           }
         ],
-        "collapsed": true
+        "collapsed": true,
+        "collapsible": true
       },
       {
         "type": "category",
@@ -84,7 +90,8 @@
             "href": "/inner-elements/inner-elements"
           }
         ],
-        "collapsed": true
+        "collapsed": true,
+        "collapsible": true
       },
       {
         "type": "category",
@@ -101,7 +108,8 @@
             "href": "/element-component/render-custom-content"
           }
         ],
-        "collapsed": true
+        "collapsed": true,
+        "collapsible": true
       },
       {
         "type": "category",
@@ -113,7 +121,8 @@
             "href": "/assets/assets-management"
           }
         ],
-        "collapsed": true
+        "collapsed": true,
+        "collapsible": true
       },
       {
         "type": "category",
@@ -125,23 +134,9 @@
             "href": "/dynamic-content/dynamic-content"
           }
         ],
-        "collapsed": true
+        "collapsed": true,
+        "collapsible": true
       }
     ]
-  },
-  "permalinkToSidebar": {
-    "/assets/assets-management": "tutorialSidebar",
-    "/css-mixins/element-css-mixins": "tutorialSidebar",
-    "/dynamic-content/dynamic-content": "tutorialSidebar",
-    "/element-attributes/attributes-onchange": "tutorialSidebar",
-    "/element-attributes/attributes-options": "tutorialSidebar",
-    "/element-attributes/element-attributes": "tutorialSidebar",
-    "/element-attributes/meta-attributes": "tutorialSidebar",
-    "/element-component/element-component-methods": "tutorialSidebar",
-    "/element-component/render-custom-content": "tutorialSidebar",
-    "/element-hook/element-hook": "tutorialSidebar",
-    "/element-structure/element-structure": "tutorialSidebar",
-    "/inner-elements/inner-elements": "tutorialSidebar",
-    "/": "tutorialSidebar"
   }
 }

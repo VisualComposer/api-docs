@@ -22,8 +22,7 @@ export default {
           "type": "doc",
           "docId": "intro",
           "position": "left",
-          "label": "API Documentation",
-          "activeSidebarClassName": "navbar__link--active"
+          "label": "API Documentation"
         },
         {
           "href": "https://github.com/VisualComposer/builder",
