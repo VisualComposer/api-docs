@@ -83,9 +83,7 @@ module.exports = {
     },
     algolia: {
       apiKey: '9d6f4e128370d929a45637f04ab12747',
-      indexName: 'visualcomposer',
-      contextualSearch: true,
-      searchParameters: {}
+      indexName: 'visualcomposer'
     },
   },
   presets: [

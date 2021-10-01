@@ -84,9 +84,9 @@ export default {
     "algolia": {
       "apiKey": "9d6f4e128370d929a45637f04ab12747",
       "indexName": "visualcomposer",
-      "contextualSearch": true,
-      "searchParameters": {},
-      "appId": "BH4D9OD16A"
+      "contextualSearch": false,
+      "appId": "BH4D9OD16A",
+      "searchParameters": {}
     },
     "colorMode": {
       "defaultMode": "light",
