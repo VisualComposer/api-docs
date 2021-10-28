@@ -16,5 +16,9 @@
   "previous": {
     "title": "Assets management",
     "permalink": "/assets/assets-management"
+  },
+  "next": {
+    "title": "How to Create Your First Element - Button",
+    "permalink": "/tutorials/how-to-create-button-element"
   }
 }

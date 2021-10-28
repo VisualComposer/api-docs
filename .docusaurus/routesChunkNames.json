@@ -1,69 +1,107 @@
 {
-  "/blog/archive-f4c": {
-    "component": "9e4087bc",
-    "archive": "b2f554cd"
+  "/__docusaurus/debug-3d6": {
+    "component": "component---theme-debug-config-23-a-2ff"
   },
-  "/search-d7d": {
-    "component": "2b976a1d"
+  "/__docusaurus/debug/config-914": {
+    "component": "component---theme-debug-config-23-a-2ff"
+  },
+  "/__docusaurus/debug/content-c28": {
+    "component": "component---theme-debug-contentba-8-ce7",
+    "allContent": "allContent---docusaurus-debug-content-246-9aa"
+  },
+  "/__docusaurus/debug/globalData-3cf": {
+    "component": "component---theme-debug-global-dataede-0fa"
+  },
+  "/__docusaurus/debug/metadata-31b": {
+    "component": "component---theme-debug-site-metadata-68-e-3d4"
+  },
+  "/__docusaurus/debug/registry-0da": {
+    "component": "component---theme-debug-registry-679-501"
+  },
+  "/__docusaurus/debug/routes-244": {
+    "component": "component---theme-debug-routes-946-699"
+  },
+  "/blog/archive-f4c": {
+    "component": "component---theme-blog-archive-page-9-e-4-1d8",
+    "archive": "archive---blog-archiveb-2-f-393"
+  },
+  "/search-1cd": {
+    "component": "component---users-mmakijenko-documents-git-hub-api-docs-node-modules-docusaurus-preset-classic-node-modules-docusaurus-theme-search-algolia-src-theme-search-page-index-js-1-ad-039"
   },
   "/tags-d7a": {
-    "component": "3720c009",
-    "tags": "55960ee5"
+    "component": "component---theme-doc-tags-list-page-372-89e",
+    "tags": "tags---tags-559-690"
   },
-  "/-906": {
-    "component": "1be78505",
-    "versionMetadata": "935f2afb"
+  "/-26b": {
+    "component": "component---theme-doc-page-1-be-9be",
+    "versionMetadata": "versionMetadata---935-fcf"
   },
   "/-96c": {
-    "component": "17896441",
-    "content": "0e384e19"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---0-e-3-279"
   },
   "/assets/assets-management-104": {
-    "component": "17896441",
-    "content": "4d03095a"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---assets-assets-management-4-d-0-b39"
   },
   "/css-mixins/element-css-mixins-46f": {
-    "component": "17896441",
-    "content": "aa9e44d9"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---css-mixins-element-css-mixinsaa-9-634"
   },
   "/dynamic-content/dynamic-content-193": {
-    "component": "17896441",
-    "content": "b2cd1968"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---dynamic-content-dynamic-contentb-2-c-b25"
   },
   "/element-attributes/attributes-onchange-edd": {
-    "component": "17896441",
-    "content": "b99c2fd9"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---element-attributes-attributes-onchangeb-99-2fe"
   },
   "/element-attributes/attributes-options-585": {
-    "component": "17896441",
-    "content": "dfb1eb06"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---element-attributes-attributes-optionsdfb-de3"
   },
   "/element-attributes/element-attributes-49e": {
-    "component": "17896441",
-    "content": "00ff5883"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---element-attributes-element-attributes-00-f-fee"
   },
   "/element-attributes/meta-attributes-5e7": {
-    "component": "17896441",
-    "content": "1fb52499"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---element-attributes-meta-attributes-1-fb-eac"
   },
   "/element-component/element-component-methods-cfa": {
-    "component": "17896441",
-    "content": "0d53be23"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---element-component-element-component-methods-0-d-5-799"
   },
   "/element-component/render-custom-content-c05": {
-    "component": "17896441",
-    "content": "d1964256"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---element-component-render-custom-contentd-19-dc4"
   },
   "/element-hook/element-hook-c32": {
-    "component": "17896441",
-    "content": "522bba54"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---element-hook-element-hook-522-7cd"
   },
   "/element-structure/element-structure-d14": {
-    "component": "17896441",
-    "content": "0437ba4e"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---element-structure-element-structure-043-b48"
   },
   "/inner-elements/inner-elements-02d": {
-    "component": "17896441",
-    "content": "a1ef08c5"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---inner-elements-inner-elementsa-1-e-09f"
+  },
+  "/tutorials/how-to-create-button-element-c81": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---tutorials-how-to-create-button-element-06-b-094"
+  },
+  "/tutorials/how-to-create-custom-elements-using-visual-composer-api-e2f": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---tutorials-how-to-create-custom-elements-using-visual-composer-api-463-150"
+  },
+  "/tutorials/how-to-integrate-visual-composer-in-a-wp-theme-bdc": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---tutorials-how-to-integrate-visual-composer-in-a-wp-theme-5-d-0-104"
+  },
+  "/tutorials/how-to-submit-your-elment-to-the-visual-composer-hub-913": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---tutorials-how-to-submit-your-elment-to-the-visual-composer-hub-7-b-3-8dc"
   }
 }

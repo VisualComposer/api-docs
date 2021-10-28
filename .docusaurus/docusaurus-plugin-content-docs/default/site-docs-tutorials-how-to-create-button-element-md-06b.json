@@ -1,0 +1,24 @@
+{
+  "unversionedId": "tutorials/how-to-create-button-element",
+  "id": "tutorials/how-to-create-button-element",
+  "isDocsHomePage": false,
+  "title": "How to Create Your First Element - Button",
+  "description": "You can create your own custom elements with the Visual Composer API. With custom elements, you are in charge of your element design and functionality which is crucial for advanced projects and allows perfectly aligned element choice to your brand.",
+  "source": "@site/docs/tutorials/how-to-create-button-element.md",
+  "sourceDirName": "tutorials",
+  "slug": "/tutorials/how-to-create-button-element",
+  "permalink": "/tutorials/how-to-create-button-element",
+  "editUrl": "https://github.com/VisualComposer/docs/tutorials/how-to-create-button-element.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Dynamic Content",
+    "permalink": "/dynamic-content/dynamic-content"
+  },
+  "next": {
+    "title": "How to Create Custom Elements using Visual Composer API",
+    "permalink": "/tutorials/how-to-create-custom-elements-using-visual-composer-api"
+  }
+}

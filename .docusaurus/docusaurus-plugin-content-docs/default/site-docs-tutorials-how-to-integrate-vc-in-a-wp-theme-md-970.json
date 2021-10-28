@@ -1,0 +1,24 @@
+{
+  "unversionedId": "tutorials/how-to-integrate-vc-in-a-wp-theme",
+  "id": "tutorials/how-to-integrate-vc-in-a-wp-theme",
+  "isDocsHomePage": false,
+  "title": "How to Integrate Visual Composer in a WordPress Theme",
+  "description": "If you're a theme developer, you probably already know that there are many benefits of including plugins in your theme. And including Visual Composer in your WordPress theme is really fast and simple. To do that, we'll use TGM Plugin Activation which is a PHP library “that allows you to easily require or recommend plugins for your WordPress themes (and plugins)”.",
+  "source": "@site/docs/tutorials/how-to-integrate-vc-in-a-wp-theme.md",
+  "sourceDirName": "tutorials",
+  "slug": "/tutorials/how-to-integrate-vc-in-a-wp-theme",
+  "permalink": "/tutorials/how-to-integrate-vc-in-a-wp-theme",
+  "editUrl": "https://github.com/VisualComposer/docs/tutorials/how-to-integrate-vc-in-a-wp-theme.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "How to Create Your First Element - Button",
+    "permalink": "/tutorials/how-to-create-button-element"
+  },
+  "next": {
+    "title": "How to Submit Your Element to the Visual Composer Hub",
+    "permalink": "/tutorials/how-to-submit-your-elment-to-the-visual-composer-hub"
+  }
+}

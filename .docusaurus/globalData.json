@@ -74,6 +74,26 @@
               "id": "intro",
               "path": "/",
               "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorials/how-to-create-button-element",
+              "path": "/tutorials/how-to-create-button-element",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorials/how-to-create-custom-elements-using-visual-composer-api",
+              "path": "/tutorials/how-to-create-custom-elements-using-visual-composer-api",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorials/how-to-integrate-visual-composer-in-a-wp-theme",
+              "path": "/tutorials/how-to-integrate-visual-composer-in-a-wp-theme",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorials/how-to-submit-your-elment-to-the-visual-composer-hub",
+              "path": "/tutorials/how-to-submit-your-elment-to-the-visual-composer-hub",
+              "sidebar": "tutorialSidebar"
             }
           ]
         }

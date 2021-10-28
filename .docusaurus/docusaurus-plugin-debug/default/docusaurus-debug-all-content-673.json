@@ -6,14 +6,17 @@
           "versionName": "current",
           "versionLabel": "Next",
           "versionPath": "/",
+          "tagsPath": "/tags",
           "versionEditUrl": "https://github.com/VisualComposer/docs",
           "versionEditUrlLocalized": "https://github.com/VisualComposer/i18n/en/docusaurus-plugin-content-docs/current",
-          "versionBanner": "none",
+          "versionBanner": null,
+          "versionBadge": false,
+          "versionClassName": "docs-version-current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/nikitahlopovs/Documents/Sites/api-docs/sidebars.js",
-          "contentPath": "/Users/nikitahlopovs/Documents/Sites/api-docs/docs",
-          "contentPathLocalized": "/Users/nikitahlopovs/Documents/Sites/api-docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/Users/mmakijenko/Documents/GitHub/api-docs/sidebars.js",
+          "contentPath": "/Users/mmakijenko/Documents/GitHub/api-docs/docs",
+          "contentPathLocalized": "/Users/mmakijenko/Documents/GitHub/api-docs/i18n/en/docusaurus-plugin-content-docs/current",
           "mainDocId": "intro",
           "sidebars": {
             "tutorialSidebar": [
@@ -30,7 +33,8 @@
                     "id": "element-structure/element-structure"
                   }
                 ],
-                "collapsed": true
+                "collapsed": true,
+                "collapsible": true
               },
               {
                 "type": "category",
@@ -41,7 +45,8 @@
                     "id": "element-hook/element-hook"
                   }
                 ],
-                "collapsed": true
+                "collapsed": true,
+                "collapsible": true
               },
               {
                 "type": "category",
@@ -64,7 +69,8 @@
                     "id": "element-attributes/meta-attributes"
                   }
                 ],
-                "collapsed": true
+                "collapsed": true,
+                "collapsible": true
               },
               {
                 "type": "category",
@@ -75,7 +81,8 @@
                     "id": "css-mixins/element-css-mixins"
                   }
                 ],
-                "collapsed": true
+                "collapsed": true,
+                "collapsible": true
               },
               {
                 "type": "category",
@@ -86,7 +93,8 @@
                     "id": "inner-elements/inner-elements"
                   }
                 ],
-                "collapsed": true
+                "collapsed": true,
+                "collapsible": true
               },
               {
                 "type": "category",
@@ -101,7 +109,8 @@
                     "id": "element-component/render-custom-content"
                   }
                 ],
-                "collapsed": true
+                "collapsed": true,
+                "collapsible": true
               },
               {
                 "type": "category",
@@ -112,7 +121,8 @@
                     "id": "assets/assets-management"
                   }
                 ],
-                "collapsed": true
+                "collapsed": true,
+                "collapsible": true
               },
               {
                 "type": "category",
@@ -123,24 +133,34 @@
                     "id": "dynamic-content/dynamic-content"
                   }
                 ],
-                "collapsed": true
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Tutorials",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "tutorials/how-to-create-button-element"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorials/how-to-create-custom-elements-using-visual-composer-api"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorials/how-to-integrate-visual-composer-in-a-wp-theme"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorials/how-to-submit-your-elment-to-the-visual-composer-hub"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
               }
             ]
-          },
-          "permalinkToSidebar": {
-            "/assets/assets-management": "tutorialSidebar",
-            "/css-mixins/element-css-mixins": "tutorialSidebar",
-            "/dynamic-content/dynamic-content": "tutorialSidebar",
-            "/element-attributes/attributes-onchange": "tutorialSidebar",
-            "/element-attributes/attributes-options": "tutorialSidebar",
-            "/element-attributes/element-attributes": "tutorialSidebar",
-            "/element-attributes/meta-attributes": "tutorialSidebar",
-            "/element-component/element-component-methods": "tutorialSidebar",
-            "/element-component/render-custom-content": "tutorialSidebar",
-            "/element-hook/element-hook": "tutorialSidebar",
-            "/element-structure/element-structure": "tutorialSidebar",
-            "/inner-elements/inner-elements": "tutorialSidebar",
-            "/": "tutorialSidebar"
           },
           "docs": [
             {
@@ -154,6 +174,7 @@
               "slug": "/assets/assets-management",
               "permalink": "/assets/assets-management",
               "editUrl": "https://github.com/VisualComposer/docs/assets/assets-management.md",
+              "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
@@ -177,6 +198,7 @@
               "slug": "/css-mixins/element-css-mixins",
               "permalink": "/css-mixins/element-css-mixins",
               "editUrl": "https://github.com/VisualComposer/docs/css-mixins/element-css-mixins.md",
+              "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
@@ -200,12 +222,17 @@
               "slug": "/dynamic-content/dynamic-content",
               "permalink": "/dynamic-content/dynamic-content",
               "editUrl": "https://github.com/VisualComposer/docs/dynamic-content/dynamic-content.md",
+              "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Assets management",
                 "permalink": "/assets/assets-management"
+              },
+              "next": {
+                "title": "How to Create Your First Element - Button",
+                "permalink": "/tutorials/how-to-create-button-element"
               }
             },
             {
@@ -219,6 +246,7 @@
               "slug": "/element-attributes/attributes-onchange",
               "permalink": "/element-attributes/attributes-onchange",
               "editUrl": "https://github.com/VisualComposer/docs/element-attributes/attributes-onchange.md",
+              "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
@@ -242,6 +270,7 @@
               "slug": "/element-attributes/attributes-options",
               "permalink": "/element-attributes/attributes-options",
               "editUrl": "https://github.com/VisualComposer/docs/element-attributes/attributes-options.md",
+              "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
@@ -265,6 +294,7 @@
               "slug": "/element-attributes/element-attributes",
               "permalink": "/element-attributes/element-attributes",
               "editUrl": "https://github.com/VisualComposer/docs/element-attributes/element-attributes.md",
+              "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
@@ -288,6 +318,7 @@
               "slug": "/element-attributes/meta-attributes",
               "permalink": "/element-attributes/meta-attributes",
               "editUrl": "https://github.com/VisualComposer/docs/element-attributes/meta-attributes.md",
+              "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
@@ -311,6 +342,7 @@
               "slug": "/element-component/element-component-methods",
               "permalink": "/element-component/element-component-methods",
               "editUrl": "https://github.com/VisualComposer/docs/element-component/element-component-methods.md",
+              "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
@@ -334,6 +366,7 @@
               "slug": "/element-component/render-custom-content",
               "permalink": "/element-component/render-custom-content",
               "editUrl": "https://github.com/VisualComposer/docs/element-component/render-custom-content.md",
+              "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
@@ -357,6 +390,7 @@
               "slug": "/element-hook/element-hook",
               "permalink": "/element-hook/element-hook",
               "editUrl": "https://github.com/VisualComposer/docs/element-hook/element-hook.md",
+              "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
@@ -380,6 +414,7 @@
               "slug": "/element-structure/element-structure",
               "permalink": "/element-structure/element-structure",
               "editUrl": "https://github.com/VisualComposer/docs/element-structure/element-structure.md",
+              "tags": [],
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
@@ -406,6 +441,7 @@
               "slug": "/inner-elements/inner-elements",
               "permalink": "/inner-elements/inner-elements",
               "editUrl": "https://github.com/VisualComposer/docs/inner-elements/inner-elements.md",
+              "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
@@ -429,6 +465,7 @@
               "slug": "/",
               "permalink": "/",
               "editUrl": "https://github.com/VisualComposer/docs/intro.md",
+              "tags": [],
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
@@ -440,6 +477,98 @@
                 "title": "Element Structure",
                 "permalink": "/element-structure/element-structure"
               }
+            },
+            {
+              "unversionedId": "tutorials/how-to-create-button-element",
+              "id": "tutorials/how-to-create-button-element",
+              "isDocsHomePage": false,
+              "title": "How to Create Your First Element - Button",
+              "description": "You can create your own custom elements with the Visual Composer API. With custom elements, you are in charge of your element design and functionality which is crucial for advanced projects and allows perfectly aligned element choice to your brand.",
+              "source": "@site/docs/tutorials/how-to-create-button-element.md",
+              "sourceDirName": "tutorials",
+              "slug": "/tutorials/how-to-create-button-element",
+              "permalink": "/tutorials/how-to-create-button-element",
+              "editUrl": "https://github.com/VisualComposer/docs/tutorials/how-to-create-button-element.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Dynamic Content",
+                "permalink": "/dynamic-content/dynamic-content"
+              },
+              "next": {
+                "title": "How to Create Custom Elements using Visual Composer API",
+                "permalink": "/tutorials/how-to-create-custom-elements-using-visual-composer-api"
+              }
+            },
+            {
+              "unversionedId": "tutorials/how-to-create-custom-elements-using-visual-composer-api",
+              "id": "tutorials/how-to-create-custom-elements-using-visual-composer-api",
+              "isDocsHomePage": false,
+              "title": "How to Create Custom Elements using Visual Composer API",
+              "description": "We’re going to cover step-by-step instructions that will help you to create your own custom element.",
+              "source": "@site/docs/tutorials/how-to-create-custom-elements-using-visual-composer-api.md",
+              "sourceDirName": "tutorials",
+              "slug": "/tutorials/how-to-create-custom-elements-using-visual-composer-api",
+              "permalink": "/tutorials/how-to-create-custom-elements-using-visual-composer-api",
+              "editUrl": "https://github.com/VisualComposer/docs/tutorials/how-to-create-custom-elements-using-visual-composer-api.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "How to Create Your First Element - Button",
+                "permalink": "/tutorials/how-to-create-button-element"
+              },
+              "next": {
+                "title": "How to Integrate Visual Composer in a WordPress Theme",
+                "permalink": "/tutorials/how-to-integrate-visual-composer-in-a-wp-theme"
+              }
+            },
+            {
+              "unversionedId": "tutorials/how-to-integrate-visual-composer-in-a-wp-theme",
+              "id": "tutorials/how-to-integrate-visual-composer-in-a-wp-theme",
+              "isDocsHomePage": false,
+              "title": "How to Integrate Visual Composer in a WordPress Theme",
+              "description": "If you're a theme developer, you probably already know that there are many benefits of including plugins in your theme. And including Visual Composer in your WordPress theme is really fast and simple. To do that, we'll use TGM Plugin Activation which is a PHP library “that allows you to easily require or recommend plugins for your WordPress themes (and plugins)”.",
+              "source": "@site/docs/tutorials/how-to-integrate-visual-composer-in-a-wp-theme.md",
+              "sourceDirName": "tutorials",
+              "slug": "/tutorials/how-to-integrate-visual-composer-in-a-wp-theme",
+              "permalink": "/tutorials/how-to-integrate-visual-composer-in-a-wp-theme",
+              "editUrl": "https://github.com/VisualComposer/docs/tutorials/how-to-integrate-visual-composer-in-a-wp-theme.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "How to Create Custom Elements using Visual Composer API",
+                "permalink": "/tutorials/how-to-create-custom-elements-using-visual-composer-api"
+              },
+              "next": {
+                "title": "How to Submit Your Element to the Visual Composer Hub",
+                "permalink": "/tutorials/how-to-submit-your-elment-to-the-visual-composer-hub"
+              }
+            },
+            {
+              "unversionedId": "tutorials/how-to-submit-your-elment-to-the-visual-composer-hub",
+              "id": "tutorials/how-to-submit-your-elment-to-the-visual-composer-hub",
+              "isDocsHomePage": false,
+              "title": "How to Submit Your Element to the Visual Composer Hub",
+              "description": "In this article, I'm going to cover the steps you need to know if you want to submit your custom element to Visual Composer Hub.",
+              "source": "@site/docs/tutorials/how-to-submit-your-elment-to-the-visual-composer-hub.md",
+              "sourceDirName": "tutorials",
+              "slug": "/tutorials/how-to-submit-your-elment-to-the-visual-composer-hub",
+              "permalink": "/tutorials/how-to-submit-your-elment-to-the-visual-composer-hub",
+              "editUrl": "https://github.com/VisualComposer/docs/tutorials/how-to-submit-your-elment-to-the-visual-composer-hub.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "How to Integrate Visual Composer in a WordPress Theme",
+                "permalink": "/tutorials/how-to-integrate-visual-composer-in-a-wp-theme"
+              }
             }
           ]
         }
@@ -448,6 +577,7 @@
   },
   "docusaurus-plugin-content-blog": {
     "default": {
+      "blogSidebarTitle": "Recent posts",
       "blogPosts": [],
       "blogListPaginated": [],
       "blogTags": {},
@@ -455,7 +585,7 @@
     }
   },
   "docusaurus-plugin-content-pages": {
-    "default": []
+    "default": null
   },
   "docusaurus-plugin-debug": {
     "default": null
