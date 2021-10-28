@@ -93,9 +93,8 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
-          // Please change this to your repo.
           editUrl:
-            'https://github.com/VisualComposer',
+            'https://github.com/VisualComposer/api-docs/edit/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

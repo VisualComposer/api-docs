@@ -113,12 +113,12 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "sidebarPath": "/Users/mmakijenko/Documents/GitHub/api-docs/sidebars.js",
+          "sidebarPath": "/Users/nikitahlopovs/Documents/Sites/api-docs/sidebars.js",
           "routeBasePath": "/",
-          "editUrl": "https://github.com/VisualComposer"
+          "editUrl": "https://github.com/VisualComposer/api-docs/edit/main"
         },
         "theme": {
-          "customCss": "/Users/mmakijenko/Documents/GitHub/api-docs/src/css/custom.css"
+          "customCss": "/Users/nikitahlopovs/Documents/Sites/api-docs/src/css/custom.css"
         }
       }
     ]
