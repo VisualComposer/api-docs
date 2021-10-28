@@ -1,0 +1,20 @@
+{
+  "unversionedId": "tutorials/how-to-submit-your-elment-to-the-visual-composer-hub",
+  "id": "tutorials/how-to-submit-your-elment-to-the-visual-composer-hub",
+  "isDocsHomePage": false,
+  "title": "How to Submit Your Element to the Visual Composer Hub",
+  "description": "In this article, I'm going to cover the steps you need to know if you want to submit your custom element to Visual Composer Hub.",
+  "source": "@site/docs/tutorials/how-to-submit-your-elment-to-the-visual-composer-hub.md",
+  "sourceDirName": "tutorials",
+  "slug": "/tutorials/how-to-submit-your-elment-to-the-visual-composer-hub",
+  "permalink": "/tutorials/how-to-submit-your-elment-to-the-visual-composer-hub",
+  "editUrl": "https://github.com/VisualComposer/docs/tutorials/how-to-submit-your-elment-to-the-visual-composer-hub.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "How to Integrate Visual Composer in a WordPress Theme",
+    "permalink": "/tutorials/how-to-integrate-visual-composer-in-a-wp-theme"
+  }
+}

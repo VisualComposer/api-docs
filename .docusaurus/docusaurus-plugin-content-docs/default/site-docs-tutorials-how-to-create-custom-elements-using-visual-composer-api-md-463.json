@@ -1,0 +1,24 @@
+{
+  "unversionedId": "tutorials/how-to-create-custom-elements-using-visual-composer-api",
+  "id": "tutorials/how-to-create-custom-elements-using-visual-composer-api",
+  "isDocsHomePage": false,
+  "title": "How to Create Custom Elements using Visual Composer API",
+  "description": "We’re going to cover step-by-step instructions that will help you to create your own custom element.",
+  "source": "@site/docs/tutorials/how-to-create-custom-elements-using-visual-composer-api.md",
+  "sourceDirName": "tutorials",
+  "slug": "/tutorials/how-to-create-custom-elements-using-visual-composer-api",
+  "permalink": "/tutorials/how-to-create-custom-elements-using-visual-composer-api",
+  "editUrl": "https://github.com/VisualComposer/docs/tutorials/how-to-create-custom-elements-using-visual-composer-api.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "How to Create Your First Element - Button",
+    "permalink": "/tutorials/how-to-create-button-element"
+  },
+  "next": {
+    "title": "How to Integrate Visual Composer in a WordPress Theme",
+    "permalink": "/tutorials/how-to-integrate-visual-composer-in-a-wp-theme"
+  }
+}

@@ -136,6 +136,34 @@
         ],
         "collapsed": true,
         "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Tutorials",
+        "items": [
+          {
+            "type": "link",
+            "label": "How to Create Your First Element - Button",
+            "href": "/tutorials/how-to-create-button-element"
+          },
+          {
+            "type": "link",
+            "label": "How to Create Custom Elements using Visual Composer API",
+            "href": "/tutorials/how-to-create-custom-elements-using-visual-composer-api"
+          },
+          {
+            "type": "link",
+            "label": "How to Integrate Visual Composer in a WordPress Theme",
+            "href": "/tutorials/how-to-integrate-visual-composer-in-a-wp-theme"
+          },
+          {
+            "type": "link",
+            "label": "How to Submit Your Element to the Visual Composer Hub",
+            "href": "/tutorials/how-to-submit-your-elment-to-the-visual-composer-hub"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
       }
     ]
   }
