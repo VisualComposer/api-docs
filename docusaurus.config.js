@@ -42,6 +42,10 @@ module.exports = {
               label: 'API Documentation',
               to: '/',
             },
+            {
+              label: 'Help Center',
+              href: 'https://help.visualcomposer.com/'
+            }
           ],
         },
         {
@@ -49,11 +53,11 @@ module.exports = {
           items: [
             {
               label: 'YouTube',
-              href: 'https://www.youtube.com/c/visualcomposer',
+              href: 'https://www.youtube.com/c/visualcomposer/',
             },
             {
               label: 'Facebook',
-              href: 'https://www.facebook.com/VisualComposerWebsiteBuilder',
+              href: 'https://www.facebook.com/VisualComposerWebsiteBuilder/',
             },
             {
               label: 'Instagram',
@@ -61,7 +65,7 @@ module.exports = {
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/VisualComposers',
+              href: 'https://twitter.com/VisualComposers/',
             },
           ],
         },
@@ -74,7 +78,11 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/VisualComposer',
+              href: 'https://github.com/VisualComposer/',
+            },
+            {
+              label: 'CodePen',
+              href: 'https://codepen.io/visualcomposer/',
             },
           ],
         },

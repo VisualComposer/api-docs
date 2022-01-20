@@ -1,6 +1,10 @@
-# Element CSS Mixins
+# Element PCSS Mixins
 
-## CSS Mixins
+:::caution
+We will gradually deprecate the usage of PCSS mixins over time. So we advise you to use [CSS Variables](/css-mixins/element-css-variables) instead.
+:::
+
+## Mixins config
 
 There is an option to use mixins for generated styles such as *color* or *size*. Mixins are a prepared and formatted CSS code, designed to generate unique style for an element.
 
