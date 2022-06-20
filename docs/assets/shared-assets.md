@@ -1,4 +1,4 @@
-# Assets management
+# Shared assets
 
 Visual Composer elements have an ability to include JavaScript and CSS libraries out of the box. These libraries are called **shared assets**.
 

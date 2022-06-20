@@ -11,8 +11,13 @@
           "mainDocId": "intro",
           "docs": [
             {
-              "id": "assets/assets-management",
-              "path": "/assets/assets-management",
+              "id": "assets/3rd-party-assets",
+              "path": "/assets/3rd-party-assets",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "assets/shared-assets",
+              "path": "/assets/shared-assets",
               "sidebar": "tutorialSidebar"
             },
             {
