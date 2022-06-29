@@ -45,7 +45,7 @@ export default [
   },
   {
     path: '/search',
-    component: ComponentCreator('/search','d7d'),
+    component: ComponentCreator('/search','2e1'),
     exact: true
   },
   {
@@ -55,7 +55,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/','26b'),
+    component: ComponentCreator('/','505'),
     routes: [
       {
         path: '/',
@@ -64,8 +64,14 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/assets/assets-management',
-        component: ComponentCreator('/assets/assets-management','104'),
+        path: '/assets/3rd-party-assets',
+        component: ComponentCreator('/assets/3rd-party-assets','b1e'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/assets/shared-assets',
+        component: ComponentCreator('/assets/shared-assets','748'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },

@@ -79,7 +79,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2021 Visual Composer. Built with <a href=\"https://docusaurus.io/\" target=\"_blank\" rel=\"noreferrer noopener\">Docusaurus</a>."
+      "copyright": "Copyright © 2022 Visual Composer. Built with <a href=\"https://docusaurus.io/\" target=\"_blank\" rel=\"noreferrer noopener\">Docusaurus</a>."
     },
     "algolia": {
       "apiKey": "9d6f4e128370d929a45637f04ab12747",
@@ -113,12 +113,12 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "sidebarPath": "/Users/nikitahlopovs/Documents/Sites/api-docs/sidebars.js",
+          "sidebarPath": "/Users/nikitahlopovs/Documents/dev/api-docs/sidebars.js",
           "routeBasePath": "/",
           "editUrl": "https://github.com/VisualComposer/api-docs/edit/main"
         },
         "theme": {
-          "customCss": "/Users/nikitahlopovs/Documents/Sites/api-docs/src/css/custom.css"
+          "customCss": "/Users/nikitahlopovs/Documents/dev/api-docs/src/css/custom.css"
         }
       }
     ]

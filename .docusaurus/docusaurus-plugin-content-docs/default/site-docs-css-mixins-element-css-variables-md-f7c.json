@@ -1,0 +1,24 @@
+{
+  "unversionedId": "css-mixins/element-css-variables",
+  "id": "css-mixins/element-css-variables",
+  "isDocsHomePage": false,
+  "title": "Element CSS Variables",
+  "description": "To style your custom elements you can use CSS variables (custom properties).",
+  "source": "@site/docs/css-mixins/element-css-variables.md",
+  "sourceDirName": "css-mixins",
+  "slug": "/css-mixins/element-css-variables",
+  "permalink": "/css-mixins/element-css-variables",
+  "editUrl": "https://github.com/VisualComposer/api-docs/edit/main/docs/css-mixins/element-css-variables.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Element PCSS Mixins",
+    "permalink": "/css-mixins/element-css-mixins"
+  },
+  "next": {
+    "title": "Inner Elements",
+    "permalink": "/inner-elements/inner-elements"
+  }
+}

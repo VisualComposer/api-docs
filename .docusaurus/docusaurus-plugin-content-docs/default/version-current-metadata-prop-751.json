@@ -117,8 +117,13 @@
         "items": [
           {
             "type": "link",
-            "label": "Assets management",
-            "href": "/assets/assets-management"
+            "label": "3rd party assets",
+            "href": "/assets/3rd-party-assets"
+          },
+          {
+            "type": "link",
+            "label": "Shared assets",
+            "href": "/assets/shared-assets"
           }
         ],
         "collapsed": true,
