@@ -62,6 +62,7 @@ $ git push origin master
 Visual Composer API is based on a popular API DOCS GENERATOR by [Docusaurus 2](https://docusaurus.io/).
 
 ### 1. Run project
+Node.js version 16.14 or above required
 ```sh
 $ yarn install
 $ yarn start
