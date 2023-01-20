@@ -24,7 +24,8 @@ Adds filter to get or set data. Arguments: 1. filter key, 2. callback function w
       data['third-party'] = {
         index: 1,
         type: 'third-party',
-        title: 'Example Panel'
+        title: 'Example Panel',
+        icon: 'cog' // icon list is predefined in plugin core
       }
       return data
     })
