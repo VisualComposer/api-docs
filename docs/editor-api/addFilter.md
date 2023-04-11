@@ -2,6 +2,23 @@
 
 ## `addFilter`
 
+In plugin core we have a filters and actions hooks that are analogs of wordpress filters and actions with some improverments and advantages in use.
+
+<table>
+  <tr>
+    <th>Wordpress Function</th>
+    <th>Visualcomposer Analog</th>
+  </tr>
+  <tr>
+    <td><a href="https://developer.wordpress.org/reference/functions/apply_filters/" target="_blank">apply_filters</a></td>
+    <td>vcfilter</td>
+  </tr>
+  <tr>
+    <td><a href="https://developer.wordpress.org/reference/functions/add_action/" target="_blank">add_action</td>
+    <td>vcevent</td>
+  </tr>
+</table>
+
 Adds filter to get or set data. Arguments: 1. filter key, 2. callback function with an argument of provided data for that filter, add key and value to object and return data if needed. Available filter points:
   - `saveRequestData` - will be called on saving the post/page, object data that will saved will be provided as an argument, any key with value can be added and returned to this object and will be saved in DB.
       To receive the passed key on PHP side there are events that are listening on editor loading ('vcv:dataAjax:getData') and saving ('vcv:dataAjax:setData'). On saving all passed values can be received through the request. To pass the values to the editor on load, they need to be added to the response array.
