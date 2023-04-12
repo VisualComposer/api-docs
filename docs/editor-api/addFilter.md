@@ -14,15 +14,15 @@ In plugin core we have a filters and actions hooks that are analogs of wordpress
     <td>vcfilter</td>
   </tr>
   <tr>
-    <td><a href="https://developer.wordpress.org/reference/functions/do_action/" target="_blank">do_action</td>
+    <td><a href="https://developer.wordpress.org/reference/functions/do_action/" target="_blank">do_action</a></td>
     <td>vcevent</td>
   </tr>
   <tr>
-    <td><a href="https://developer.wordpress.org/reference/functions/add_filter/" target="_blank">add_filter</td>
+    <td><a href="https://developer.wordpress.org/reference/functions/add_filter/" target="_blank">add_filter</a></td>
     <td>EventsFilters::addFilter()</td>
   </tr>
   <tr>
-    <td><a href="https://developer.wordpress.org/reference/functions/add_action/" target="_blank">add_action</td>
+    <td><a href="https://developer.wordpress.org/reference/functions/add_action/" target="_blank">add_action</a></td>
     <td>EventsFilters::addEvent()</td>
   </tr>  
 </table>
