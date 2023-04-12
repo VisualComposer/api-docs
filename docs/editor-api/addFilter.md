@@ -73,7 +73,7 @@ $filterName string Required
   The name of the filter to add the callback to.
 
 $methodCallback string Required
-  he callback to be run when the filter is applied.
+  The callback to be run when the filter is applied.
 
 $weight int Optional
   Used to specify the order in which the functions associated with a particular filter are executed.
@@ -144,22 +144,36 @@ Exemple can be inplemented in functioins.php theme file or any plugin file.
 
     Example:
     ```php
-        add_action('vcv:api', function() {
-          vchelper('Filters')->listen('vcv:frontend:url', 'actionHookExample');
+        use VisualComposer\Framework\Container;
+        use VisualComposer\Framework\Illuminate\Support\Module;
+        use VisualComposer\Helpers\Traits\EventsFilters;
 
-            function actionHookExample($url, $payload) {
+        class Extender extends Container implements Module
+        {
+            use EventsFilters;
 
-                if (empty($payload['sourceId']) || empty($payload['sourceId'])) {
-                    return $url;
+            public function __construct()
+            {
+                $this->addEvent(
+                    'vcv:api:postSaved',
+                    'initialize'
+                );
+            }
+
+            public function initialize($payload)
+            {
+                if (get_post_type($payload['post']->ID) !== 'post') {
+                    return;
                 }
 
-                $url = 'https://example.com';
-
-                return $url;
+                // do some stuff here
             }
-        });
-    ```
+        }
 
+        new Extender();
+
+    ```
+## `JS hooks and actions`
 
 Adds filter to get or set data. Arguments: 1. filter key, 2. callback function with an argument of provided data for that filter, add key and value to object and return data if needed. Available filter points:
   - `saveRequestData` - will be called on saving the post/page, object data that will saved will be provided as an argument, any key with value can be added and returned to this object and will be saved in DB.
