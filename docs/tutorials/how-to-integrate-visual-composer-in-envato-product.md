@@ -4,7 +4,7 @@ You can bundle Visual Composer plugin with your ThemeForest Theme at Envato, by 
 
 After that you will receive a specific licence that will allow you to activate Visual Composer premium version for a single site for you as a developer, and additionally to that depending on the license type a specific count of your Theme customers will be able to activate Visual Composer premium by using the Envato items purchase code. 
 
-### Implementation
+## Implementation
 
 1. After purchase go to the [Theme Integration](https://my.visualcomposer.com/theme-integration/) section in [my.visualcomposer.com](https://my.visualcomposer.com/)
 
@@ -22,7 +22,7 @@ After that you will receive a specific licence that will allow you to activate V
 
 <img width="50%" src="/img/docs/theme-integration-api-key-validate.png" alt="Theme Integration API key validate" /> 
 
-### There you will see the license that consists of:
+## There you will see the license that consists of:
 
 1. **Visual Composer License** is the personal license key for you as a developer to use our premium version, don't distribute this key to anyone.
 2. **API Token** this is your public token that needs to be defined inside your Theme function.php like
