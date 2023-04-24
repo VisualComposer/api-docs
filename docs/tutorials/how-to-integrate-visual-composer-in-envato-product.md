@@ -6,19 +6,19 @@ After that you will receive a specific licence that will allow you to activate V
 
 ### Implementation
 
-After purchase go to the [Theme Integration](https://my.visualcomposer.com/theme-integration/) section in [my.visualcomposer.com](https://my.visualcomposer.com/)
+1. After purchase go to the [Theme Integration](https://my.visualcomposer.com/theme-integration/) section in [my.visualcomposer.com](https://my.visualcomposer.com/)
 
 <img src="/img/docs/theme-integration-section.png" alt="Theme Integration" />
 
-Before getting access to the license you will need to create an [Envato API token](https://build.envato.com/create-token/). 
+2. Before getting access to the license you will need to create an [Envato API token](https://build.envato.com/create-token/). 
 
 <img width="50%" src="/img/docs/theme-integration-api-key-create.png" alt="Theme Integration API key create" /> 
 
-Make sure that you select **Verify purchases of the user's items** permission for the token.
+3. Make sure that you select **Verify purchases of the user's items** permission for the token.
 
 <img width="50%" src="/img/docs/theme-integration-api-key-create-2.png" alt="Theme Integration API key create" />
 
-When the token is created copy it and paste it in [My Visual Composer Theme Integration section](https://my.visualcomposer.com/theme-integration/), by clicking on the button - **Validate Envato API Key**
+4. When the token is created copy it and paste it in [My Visual Composer Theme Integration section](https://my.visualcomposer.com/theme-integration/), by clicking on the button - **Validate Envato API Key**
 
 <img width="50%" src="/img/docs/theme-integration-api-key-validate.png" alt="Theme Integration API key validate" /> 
 
@@ -35,3 +35,6 @@ define('VCV_AUTHOR_API_KEY','vcwb-xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx');
 6. **User Activations** your ThemeForest customer activations, here you can follow how many users that have purchased your Theme at Envato have activated Visual Composer.
 7. **Sites** here you can see all the sites that have activated Visual Composer with your Envato purchase key, also if needed, you can deactivate it for a specific site.
 8. **Upgrades** if you see that soon you will reach the **User Activations** limit, this is the place where to look into to increase it. 
+
+
+**Important:** You don't need to share your Visual Composer Theme Integration license with your customers. They will use their Envato purchase key to activate Visual Composer.
