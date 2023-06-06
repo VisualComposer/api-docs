@@ -406,20 +406,32 @@ Description is used to describe the element itself inside Edit Form.
 ## designOptions
 
 Design options to set up margins, paddings, border, background color etc.
-
-`value` property is an `object` type.
+The `value` property is of type object. 
+It can be left as an empty object if there are no default values to be set.
+Alternatively, default values can be defined within the `value` object. 
+It is possible to assign different default values for each screen size 
+by creating an object within the `device` object with the corresponding device name.
+In cases where the default values are the same across all screen sizes, 
+an object with the key `all` can be used.
 
 `designOptions` attribute *settings.json* file example:
 
 ```json
 "designOptions": {
-  "type": "designOptions",
-  "access": "public",
-  "value": {},
-  "options": {
-    "label": "Design Options"
-  }
-}
+    "type": "designOptions",
+    "access": "public",
+    "value": {
+        "device": {
+            "all": {
+                "backgroundColor": "#e7b460",
+                "image": ["https://cdn.hub.visualcomposer.com/plugin-assets/core-elements/heroSection/hero-section-background.jpg"]
+            }
+        }
+    },
+    "options": {
+        "label": "Design Options"
+    }
+},
 ```
 
 ## dropdown
@@ -1119,6 +1131,17 @@ Displays child elements as a Tree View in Edit Form.
 
 `value` property is an `object` type.
 
+By default, the treeView will include all available controls. However, by using the `controls` option, only the controls listed can be permitted.
+Here is the list of all available controls:
+- addChild
+- lock
+- edit
+- remove
+- clone
+- visibility
+- copy
+- paste
+
 `treeView` attribute *settings.json* file example:
 
 ```json
@@ -1128,6 +1151,19 @@ Displays child elements as a Tree View in Edit Form.
   "value": {},
   "options": {
     "label": "Buttons"
+  }
+}
+```
+
+`treeView` attribute *settings.json* file example where only three controls are permitted:
+```json
+"buttons": {
+  "type": "treeView",
+  "access": "public",
+  "value": {},
+  "options": {
+    "label": "Buttons",
+    "controls": ["lock", "edit", "visibility"]
   }
 }
 ```
