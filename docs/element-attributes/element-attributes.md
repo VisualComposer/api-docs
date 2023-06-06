@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Attributes
 
 ## ajaxForm
@@ -526,6 +530,23 @@ List of data values. Used to group edit form attributes in the Edit Form.
   "options": {
     "label": "General"
   }
+}
+```
+
+## hidden
+
+Used to indicate whether the element is hidden or visible. This attribute is used set the initial visibility state.
+Users can toggle between hidden and visible state of the elemnt via Tree View or Edit Form.
+
+`value` property is a `boolean` type.
+
+`hidden` attribute *settings.json* file example:
+
+```json
+"hidden": {
+  "type": "string",
+  "access": "public",
+  "value": false
 }
 ```
 
@@ -1094,7 +1115,7 @@ A small version of `toggle` attribute is used to toggle skin color of a tinyMCE 
 
 ## treeView
 
-Displays child elements as Tree View in Edit Form.
+Displays child elements as a Tree View in Edit Form.
 
 `value` property is an `object` type.
 
