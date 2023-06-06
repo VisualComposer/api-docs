@@ -142,9 +142,9 @@ Reacts to `toggle` type attribute value change. Rule value can also be `!toggle`
 
 ### minlength
 
-Reacts to `value` change, checks for a min number of character in a string or min number of items in an array. Additional options could be an object with `value` property (`string` on an `array`).
+Reacts to `value` change, checks for a min number of character in a string or min number of items in an array. Additionally, a key can be specified with path to value for values in object type. More information about path [here](https://lodash.com/docs/#get)
 
-`minlength` rule property *settings.json* example:
+`minlength` rule property *settings.json* example (String value):
 
 ```json
 {
@@ -159,7 +159,7 @@ Reacts to `value` change, checks for a min number of character in a string or mi
           "accessKey": {
             "rule": "minlength",
             "options": {
-              "value": "1234admin"
+              "length": "10"
             }
           }
         },
@@ -180,13 +180,56 @@ Reacts to `value` change, checks for a min number of character in a string or mi
     }
   }
 }
-```
 
+
+```
+`minlength` rule property *settings.json* example (Object value):
+
+```json
+{
+  "title": {
+    "type": "string",
+    "access": "public",
+    "value": "Hello World",
+    "options": {
+      "label": "Title",
+      "onChange": {
+        "rules": {
+          "buttonUrl": {
+            "rule": "minlength",
+            "options": {
+              "length": "10",
+              "key": "url"
+            }
+          }
+        },
+        "actions": [
+          {
+            "action": "toggleVisibility"
+          }
+        ]
+      }
+    }
+  }, 
+  "buttonUrl": {
+    "type": "url",
+    "access": "public",
+    "value": {
+      "url": "",
+      "title": "",
+      "targetBlank": false,
+      "relNofollow": false
+    }
+  }
+}
+
+
+```
 ### maxlength
 
-Reacts to value change, checks for a max number of character in a string or max number of items in an array. Additional options could be an `object` with `value` property (`string` on an `array`)
+Reacts to value change, checks for a max number of character in a string or max number of items in an array. Additionally, a key can be specified with path to value for values in object type. More information about path [here](https://lodash.com/docs/#get)
 
-`maxlength` rule property *settings.json* example:
+`maxlength` rule property *settings.json* example (String value):
 
 ```json
 {
@@ -201,7 +244,7 @@ Reacts to value change, checks for a max number of character in a string or max 
           "accessKey": {
             "rule": "maxlength",
             "options": {
-              "value": "1234admin"
+              "length": "10"
             }
           }
         },
@@ -222,6 +265,51 @@ Reacts to value change, checks for a max number of character in a string or max 
     }
   }
 }
+
+
+```
+
+`maxlength` rule property *settings.json* example (Object value):
+
+```json
+{
+  "title": {
+    "type": "string",
+    "access": "public",
+    "value": "Hello World",
+    "options": {
+      "label": "Title",
+      "onChange": {
+        "rules": {
+          "buttonUrl": {
+            "rule": "maxlength",
+            "options": {
+              "length": "10",
+              "key": "url"
+            }
+          }
+        },
+        "actions": [
+          {
+            "action": "toggleVisibility"
+          }
+        ]
+      }
+    }
+  }, 
+  "buttonUrl": {
+    "type": "url",
+    "access": "public",
+    "value": {
+      "url": "",
+      "title": "",
+      "targetBlank": false,
+      "relNofollow": false
+    }
+  }
+}
+
+
 ```
 
 ### range
