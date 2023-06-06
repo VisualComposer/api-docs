@@ -35,7 +35,7 @@ This function invokes all functions attached to filter hook `$filter`.
 vcfilter( string $filter, mixin $body = '', mixin $payload = [], bool $haltable = false)
 ```
 
-Parameters
+**Parameters**
 
 `$filter` (string) Required - The name of the filter hook.
 
@@ -43,7 +43,7 @@ Parameters
 
 `$payload` (mixed) Optional - Additional parameters to pass to the callback functions.
 
-`$haltable` (bool) Optional - If true than we can't override this filter.
+`$haltable` (bool) Optional - If true, then we can't override this filter.
 
 Example in Visual Composer core.
 
@@ -68,7 +68,7 @@ Adds a callback function to a filter hook.
 addFilter(string $filterName, string $methodCallback, int $weight = 0)
 ```
 
-Parameters
+**Parameters**
 
 `$filterName` (string) Required - The name of the filter to add the callback to.
 
@@ -76,7 +76,7 @@ Parameters
 
 `$weight` (int) Optional - Used to specify the order in which the functions associated with a particular filter are executed.
 
-Exemple can be inplemented in `functions.php` theme file or any plugin file.
+Example can be implemented in `functions.php` theme file or any plugin file.
 
 **Example:**
 ```php
@@ -104,7 +104,7 @@ Calls the callback functions that have been added to an action hook.
 vcevent(string $event, mixin $payload = [])
 ```
 
-Parameters
+**Parameters**
 
 `$event` (string) Required - The name of the action to be executed.
 
@@ -130,7 +130,7 @@ Adds a callback function to an action hook.
 addEvent(string $eventName, string $methodCallback, int $weight = 0)
 ```
 
-Parameters
+**Parameters**
 
 `$eventName` (string) Required - The name of the action to add the callback to.
 

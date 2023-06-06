@@ -547,8 +547,8 @@ List of data values. Used to group edit form attributes in the Edit Form.
 
 ## hidden
 
-Used to indicate whether the element is hidden or visible. This attribute is used set the initial visibility state.
-Users can toggle between hidden and visible state of the elemnt via Tree View or Edit Form.
+Used to indicate whether the element is hidden or visible. This attribute is used to set the initial visibility state.
+Users can toggle between hidden and visible state of the element via Tree View or Edit Form.
 
 `value` property is a `boolean` type.
 
