@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Attributes Options
 
 Each attribute has a type and options. Options property is an object that may contain multiple properties which can extend an attribute.
@@ -100,15 +104,16 @@ An array of objects. Usually, each object consists of `label` and `value` proper
 }
 ```
 
-### cssMixins
+### cssMixin
 
 Defines which POST CSS mixin to use, mixin variable and pattern. `cssMixin` property is an object that has several properties:
 
 * `mixin` defines the name of POST CSS file with the mixin;
 * `property` defines the name of the property inside POST CSS file;
-* `namePattern` defines the pattern of how input data will be verified via RegExp.
+* `namePattern` defines the pattern of how input data will be verified via RegExp;
+* `keyValue` defines the `fontFamily` value. **This property is only used for font related attributes and mixins**.
 
-`cssMixins` option *settings.json* example:
+`cssMixin` option *settings.json* example:
 
 ```json
 {
@@ -121,7 +126,8 @@ Defines which POST CSS mixin to use, mixin variable and pattern. `cssMixin` prop
       "cssMixin": {
         "mixin": "titleColor",
         "property": "color",
-        "namePattern": "[\\da-f]+"
+        "namePattern": "[\\da-f]+",
+        "keyValue": "fontFamily"
       }
     }
   }
@@ -845,6 +851,41 @@ This option will work only for a grouped attribute. It will be displayed as a qu
       "label": "Box Shadow",
       "tooltip": "Add outlined shades to an element."
     }
+  }
+}
+```
+
+### controls
+
+This option is specific for a `treeView` attribute only. It is an array of strings, that specify which controls a Tree View element can have.
+
+<img width="50%" src="/img/editor/tree-view-attribute.png" alt="Tree View attribute" loading="lazy" /> 
+
+Possible values (self-explanatory):
+
+* `addChild`
+* `lock`
+* `edit`
+* `remove`
+* `clone`
+* `visibility`
+* `copy`
+* `paste`
+
+`controls` option *settings.json* example:
+
+```json
+"buttonElement": {
+  "type": "treeView",
+  "access": "public",
+  "value": [],
+  "options": {
+    "label": "Button",
+    "controls": [
+      "lock",
+      "edit",
+      "visibility"
+    ]
   }
 }
 ```

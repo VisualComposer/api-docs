@@ -219,6 +219,20 @@ this.getImageUrl(this.props.atts.imageSrc, 'large')
 this.getPublicImage('my-image.png')
 ```
 
+### getExtraDataAttributes
+
+**Description**: Get the background container depending on the selected background in Design Options.
+
+**Arguments**:
+
+* `extraDataAttributes`: a string containing the value of a Extra Data Attributes field.
+
+**Returns**: an object containing a set of attributes key value pairs.
+
+**Usage**:
+```javascript
+this.getExtraDataAttributes(extraDataAttributes)
+```
 
 ## Container specific methods
 

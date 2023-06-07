@@ -39,9 +39,15 @@ This attribute defines the relation to groups. uIt is sed for Drag'n'Drop functi
 
 ## editFormTab1
 
+:::caution
+The `editFormTab1` attribute is deprecated as of version 45.2. Consider using one of the following tabs: `contentTab`, `designTab`, `advancedTab`, `layoutTab`.
+
+If you still have the `editFormTab1` specified in your *settings.json* file, the attributes will be displayed under General tab as a part of Backwards Compatibility. 
+:::
+
 List of Edit Form attributes in the General section of the Edit Form.
 
-`value` property is an `array` of `string`s.
+`value` property is an `array` of strings.
 
 `editFormTab1` attribute *settings.json* file example:
 
@@ -62,11 +68,182 @@ List of Edit Form attributes in the General section of the Edit Form.
 }
 ```
 
+## contentTab
+
+The Content tab is used to display content like attributes like TinyMCE, input fields, text areas, images to output the content of the element.
+
+The value of the `contentTab` is a list of Edit Form sections with attributes inside the Content tab of the Edit Form. The `contentSection` attribute is used to represent a single section inside the Content tab. The `contentSection` holds an array value of standalone attributes. 
+
+`value` property is an `array` of strings.
+
+`contentTab` attribute *settings.json* file example:
+
+```json
+"contentSection": {
+  "type": "group",
+  "access": "protected",
+  "options": {
+    "label": "Content"
+  },
+  "value": [
+    "description",
+    "buttonElement"
+  ]
+},
+"contentTab": {
+  "type": "group",
+  "access": "protected",
+  "options": {
+    "label": "Content",
+    "isSections": true
+  },
+  "value": [
+    "contentSection"
+  ]
+},
+```
+
+## designTab
+
+The Design tab is used to display design like attributes color, alignment, shape, etc. to output the styles of the element.
+
+The value of the `designTab` is a list of Edit Form sections with attributes inside the Design tab of the Edit Form. The `styleSection` and [`designOptions`](/element-attributes/element-attributes#designoptions) attributes are used to represent sections inside the Design tab. The `styleSection` holds an array value of standalone attributes.
+
+`value` property is an `array` of strings.
+
+`designTab` attribute *settings.json* file example:
+
+```json
+"designOptions": {
+  "type": "designOptions",
+  "access": "public",
+  "value": [],
+  "options": {
+    "label": "Design Options"
+  }
+},
+"styleSection": {
+  "type": "group",
+  "access": "protected",
+  "options": {
+    "label": "Style"
+  },
+  "value": [
+    "outlineColor",
+    "outlineWidth",
+    "shape"
+  ]
+},
+"designTab": {
+  "type": "group",
+  "access": "protected",
+  "options": {
+    "label": "Design",
+    "isSections": true
+  }, 
+  "value": [
+    "styleSection",
+    "designOptions"
+  ]
+},
+```
+
+## advancedTab
+
+The Advanced tab is used to display additional attributes Custom class name, Custom ID, Custom CSS.
+
+The value of the `advancedTab` is a list of Edit Form sections with attributes inside the Advanced tab of the Edit Form. Each section holds an array of standalone attributes.
+
+`value` property is an `array` of strings.
+
+`advancedTab` attribute *settings.json* file example:
+
+```json
+"customAttributes": {
+  "type": "group",
+  "access": "public",
+  "value": [
+    "extraDataAttributes"
+  ],
+  "options": {
+    "label": "Custom Attributes"
+  }
+},
+"htmlAttributes": {
+  "type": "group",
+  "access": "public",
+  "value": [
+    "metaCustomId",
+    "customClass"
+  ],
+  "options": {
+    "label": "HTML Attributes"
+  }
+},
+"customCSS": {
+  "type": "group",
+  "access": "public",
+  "value": [
+    "styleEditor"
+  ],
+  "options": {
+    "label": "Custom CSS",
+    "tooltip": "Add custom CSS to the element using the [element-id] placeholder."
+  }
+},
+"advancedTab": {
+  "type": "group",
+  "access": "protected",
+  "value": [
+    "htmlAttributes",
+    "customAttributes",
+    "customCSS"
+  ],
+  "options": {
+    "label": "Advanced",
+    "isSections": true
+  }
+},
+```
+
+## layoutTab
+
+The Layout tab is used to display layout related attributes, currently only used in the Row element.
+
+The value of the `layoutTab` is a list of Edit Form sections with attributes inside the Layout tab of the Edit Form. Each section holds an array of standalone attributes.
+
+`value` property is an `array` of strings.
+
+`layoutTab` attribute *settings.json* file example:
+
+```json
+"layoutTab": {
+  "type": "group",
+  "access": "protected",
+  "options": {
+    "label": "Layout",
+    "isSections": true
+  },
+  "value": [
+    "rowOptions"
+  ]
+}
+```
+
 ## metaEditFormTabs
 
-List of sections in the Edit Form. A section can be a group like `"editFormTab1"` or attribute like `"designOptions"`.
+~~List of sections in the Edit Form. A section can be a group like `"editFormTab1"` or attribute like `"designOptions"`.~~
 
-`value` property is an `array` of `string`s.
+As of version 45.2 the `metaEditFormTabs` is used to specify Edit Form tabs.
+
+Possible tab values:
+
+* `contentTab`
+* `designTab`
+* `advancedTab`
+* `layoutTab` - Currently used only for Row element
+
+`value` property is an `array` of strings.
 
 `metaEditFormTabs` attribute *settings.json* file example:
 
@@ -75,8 +252,9 @@ List of sections in the Edit Form. A section can be a group like `"editFormTab1"
   "type": "group",
   "access": "protected",
   "value": [
-    "editFormTab1",
-    "designOptions"
+    "contentTab",
+    "designTab"
+    "advancedTab"
   ]
 }
 ```
@@ -171,6 +349,40 @@ A list of custom JavaScript libraries which will be used by and related to a par
       }
     ]
   }
+}
+```
+
+## metaDisableInteractionInEditor
+
+Prevents user interaction inside the Visual Composer editor. Useful for interactive elements, to prevent unwanted behaviour on various events like `click`, `mousedown`, `mousemove`, etc.
+
+`value` property is an `boolean` type should be set to `true`.
+
+`metaDisableInteractionInEditor` attribute *settings.json* file example:
+
+```json
+{
+  "metaDisableInteractionInEditor": {
+    "type": "toggle",
+    "access": "protected",
+    "value": true
+  }
+}
+```
+
+## parentWrapper
+
+Explicitly specifies the parent element. Used by the plugin to identify relation between parent - child elements.
+
+`value` property is a `string` type.
+
+`parentWrapper` attribute *settings.json* file example:
+
+```json
+"parentWrapper": {
+  "type": "string",
+  "access": "protected",
+  "value": "classicTabs"
 }
 ```
 

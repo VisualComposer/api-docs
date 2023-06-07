@@ -21,6 +21,20 @@ There are certain files required to build element:
 * **editor.css** – CSS files which will be used only in the editor;
 * **style.css** – CSS files which will be used on the frontend to display content.
 
+## Package file
+
+The *package.json* file is a configuration file used in web development projects that contains information about the project and its dependencies.
+
+Among various packages that might be specified in your *package.json* file, you should pay attention to the `vc-webpack-vendors` package under the `devDependencies` property.
+
+This package contains dependency packages for building Visual Composer element. You can get familiar with the contents of this package in our [GitHub repository](https://github.com/VisualComposer/vc-webpack-vendors).
+
+You should keep your *package.json* file up to date in order to properly build your elements.
+
+:::info
+Make sure you have the latest `vc-webpack-vendors` package. You can always check the latest *package.json* file in our [element boilerplate](https://github.com/VisualComposer/elementBoilerplate/blob/master/package.json) on GitHub.
+:::
+
 ## Settings File
 
 *settings.json* file example:

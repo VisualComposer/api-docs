@@ -21,25 +21,29 @@ The editor works with elements as React components. These components must be bui
 - React-based component.
 
 ## What is Visual Composer Element?
-The element is an independent component of the system which represents HTML based block with the ability to output media and dynamic content. Visual Composer offers a wide range of pre-defined content elements which can be downloaded from the <a href="https://visualcomposer.com/help/visual-composer-hub/" target="_blank">Visual Composer Hub</a>. Visual Composer API allows extending the list with your own elements – these elements will not be available in the Hub but will be instantly displayed in the ‘Add Element’ window.
+The element is an independent component of the system which represents HTML based block with the ability to output media and dynamic content.
+
+Visual Composer offers a wide range of pre-defined content elements which can be downloaded from the <a href="https://visualcomposer.com/help/visual-composer-hub/" target="_blank">Visual Composer Hub</a>.
+
+Visual Composer API allows extending the list with your own elements – these elements will not be available in the Hub but will be instantly displayed in the [Add Element](https://help.visualcomposer.com/docs/getting-started/interface/) window.
 
 ## How to Start Development?
 There are 4 steps to start developing elements for the Visual Composer:
 
-- Follow the requirements (see below);
+- Follow the requirements ([see below](#requirements));
 - <a href="https://visualcomposer.com/download/" target="_blank">Download</a> and <a href="https://visualcomposer.com/help/installation/" target="_blank">install</a> the plugin;
 - <a href="https://visualcomposer.com/help/activation/" target="_blank">Activate</a> the plugin with Premium/Free license;
-- Use API hooks and element boilerplates to add elements to your plugin or theme.
+- Use [API hooks](/element-hook/element-hook) and [element boilerplates](https://github.com/VisualComposer/elementBoilerplate) to add elements to your plugin or theme.
 
 ## Requirements
 To develop Visual Composer element there are following technical requirements:
 
-* PHP >= 5.4
-* WordPress >= 4.6
-* PHP gd2/imagick and php-zip extensions to be loaded
-* Node >=8.0
-* npm >=5.8
-* yarn
+* [PHP](https://www.php.net/) >= 5.4 ([PHP installation](https://www.php.net/manual/en/install.php))
+* [WordPress](https://wordpress.org/) >= 4.6 ([WordPress installation](https://wordpress.org/documentation/category/installation/))
+* [PHP gd2/imagick](https://www.php.net/manual/en/book.image.php) and [php-zip](https://www.php.net/manual/en/book.zip.php) extensions to be loaded
+* [Node](https://nodejs.org/en) >=8.0 ([Node installation](https://nodejs.org/en/download))
+* [yarn](https://yarnpkg.com/) ([Yarn installation](https://yarnpkg.com/getting-started/install))
+* Local server ([How to setup local a server](https://www.maketecheasier.com/setup-local-web-server-all-platforms/))
 
 ## Useful Links
 
