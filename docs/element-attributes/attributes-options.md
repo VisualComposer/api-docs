@@ -889,3 +889,62 @@ Possible values (self-explanatory):
   }
 }
 ```
+
+### visibilityDependency
+
+This option is specific to an [`initChildren` attribute](/element-attributes/meta-attributes#initchildren) only. It is a string, that specifies whether child elements should be rendered or not.
+
+The value of the `visibilityDependency` property should be equal to the element's [`treeView` attribute](/element-attributes/element-attributes#treeview) name.
+
+Important to notice that in order for it to work, the `treeView` type attribute should have an [`onChange` option](/element-attributes/attributes-onchange) specified. That is there's an option to toggle the visibility of this attribute.
+
+`visibilityDependency` option *settings.json* example:
+
+```json
+"toggleSandwichMenu": {
+  "type": "toggle",
+  "access": "public",
+  "value": false,
+  "options": {
+    "label": "Enable sandwich menu",
+    "description": "Manage a source and design in the sandwich menu settings below."
+  }
+},
+"sandwichMenuElement": {
+  "type": "treeView",
+  "access": "public",
+  "value": [],
+  "options": {
+    "label": "Sandwich Menu",
+    "controls": [
+      "lock",
+      "edit"
+    ],
+    "onChange": {
+      "rules": {
+        "toggleSandwichMenu": {
+          "rule": "toggle"
+        }
+      },
+      "actions": [
+        {
+          "action": "toggleSectionVisibility"
+        }
+      ]
+    }
+  }
+},
+"initChildren": {
+  "access": "protected",
+  "type": "object",
+  "value": [
+    {
+      "tag": "sandwichMenu"
+    }
+  ],
+  "options": {
+    "editorProps": false,
+    "visibilityDependency": "sandwichMenuElement"
+  }
+},
+```
